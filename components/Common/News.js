@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
 import Link from 'next/link';
+import React, { Component } from 'react';
 
 class News extends Component {
     render() {
@@ -16,7 +16,7 @@ class News extends Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-news">
                                 <div className="blog-img">
-                                    <Link href="/news-details">
+                                    <Link href="/service-details">
                                         <a>
                                             <img src="/images/blog/blog1.png" alt="Image" />
                                         </a>
@@ -41,7 +41,7 @@ class News extends Component {
                                         </li>
                                     </ul>
 
-                                    <Link href="/news-details">
+                                    <Link href="/service-details">
                                         <a>
                                             <h3>Is Machine Learning Right For You</h3>
                                         </a>
@@ -49,7 +49,7 @@ class News extends Component {
 
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga veritatis veniam corrupti perferendis minima in.</p>
                                     
-                                    <Link href="/news-details">
+                                    <Link href="/service-details">
                                         <a className="read-more">
                                             Read More <i className="bx bx-plus"></i>
                                         </a>
@@ -61,7 +61,7 @@ class News extends Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-news">
                                 <div className="blog-img">
-                                    <Link href="/news-details">
+                                    <Link href="/service-details">
                                         <a>
                                             <img src="/images/blog/blog2.png" alt="Image" />
                                         </a>
@@ -86,7 +86,7 @@ class News extends Component {
                                         </li>
                                     </ul>
 
-                                    <Link href="/news-details">
+                                    <Link href="/service-details">
                                         <a>
                                             <h3>The State Of Artificial Intelligence</h3>
                                         </a>
@@ -94,7 +94,7 @@ class News extends Component {
 
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga veritatis veniam corrupti perferendis minima in.</p>
                                     
-                                    <Link href="/news-details">
+                                    <Link href="/service-details">
                                         <a className="read-more">
                                             Read More <i className="bx bx-plus"></i>
                                         </a>
@@ -106,7 +106,7 @@ class News extends Component {
                         <div className="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
                             <div className="single-news">
                                 <div className="blog-img">
-                                    <Link href="/news-details">
+                                    <Link href="/service-details">
                                         <a>
                                             <img src="/images/blog/blog3.png" alt="Image" />
                                         </a>
@@ -131,7 +131,7 @@ class News extends Component {
                                         </li>
                                     </ul>
 
-                                    <Link href="/news-details">
+                                    <Link href="/service-details">
                                         <a>
                                             <h3>Our Company Machine Learning </h3>
                                         </a>
@@ -139,7 +139,7 @@ class News extends Component {
 
                                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga veritatis veniam corrupti perferendis minima in.</p>
 
-                                    <Link href="/news-details">
+                                    <Link href="/service-details">
                                         <a className="read-more">
                                             Read More <i className="bx bx-plus"></i>
                                         </a>

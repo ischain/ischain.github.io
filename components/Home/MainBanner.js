@@ -12,15 +12,15 @@ const MainBanner = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida risus commodo</p>	
 
                             <div className="banner-btn">
-                                <Link href="/about-1">
+                                <Link href="/tentang-kami">
                                     <a className="default-btn">
-                                        Learn More
+                                        Pelajari Lagi
                                     </a>
                                 </Link>
 
-                                <Link href="/contact">
+                                <Link href="/kontak">
                                     <a className="default-btn">
-                                        Contact Us
+                                        Hubungi Kami
                                     </a>
                                 </Link>
                             </div>
