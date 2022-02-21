@@ -30,7 +30,7 @@ const About = () => {
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Implementasi Blokchain
+                                            Berpegang Pada Syariat Islam
                                         </li>
                                     </ul>
                                 </div>
@@ -45,17 +45,13 @@ const About = () => {
                                             <i className="flaticon-checked"></i>
                                             Beranggotakan Praktisi, Pakar, dan Asatidzah
                                         </li>
-                                        <li>
-                                            <i className="flaticon-checked"></i>
-                                            Berjalan Di Atas Syariat Islam
-                                        </li>
                                     </ul>
                                 </div>
                             </div>
 
                             <Link href="/tentang-kami">
                                 <a className="default-btn">
-                                    <i class="bx bxl-telegram"></i> ISCHAIN Lounge
+                                    <i class="bx bxl-telegram"></i>   ISCHAIN Lounge
                                 </a>
                             </Link>
                         </div>
