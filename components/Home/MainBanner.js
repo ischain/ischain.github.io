@@ -9,7 +9,7 @@ const MainBanner = () => {
                     <div className="col-lg-6">
                         <div className="banner-text">
                             <h1>Stay Halal with ISCHAIN</h1>
-                            <p>Media Edukasi dan Penyedia Solusi Halal Crypto, Teknologi Blockchain, dan Web3 No. 1 di Indonesia</p>	
+                            <p>ISCHAIN adalah komunitas Islami penggiat industri Web3 halal<br> Visi kami menjadi media edukasi dan penyedia solusi Halal Crypto, Teknologi Blockchain, dan Web3 terbesar di Indonesia</p>	
 
                             <div className="banner-btn">
                                 <Link href="/tentang-kami">
