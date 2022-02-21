@@ -2,7 +2,6 @@ import MakeYourBusiness from '../components/Common/MakeYourBusiness'
 import News from '../components/Common/News'
 import Testimonials from '../components/Common/Testimonials'
 import About from '../components/Home/About'
-import Features from '../components/Home/Features'
 import MainBanner from '../components/Home/MainBanner'
 import Services from '../components/Home/Services'
 import WhatWeOffer from '../components/Home/WhatWeOffer'
@@ -15,7 +14,6 @@ const Index = () => {
         <>
             <Navbar />
             <MainBanner />
-            <Features />
             <About />
             <WhyChooseUs />
             <Services />

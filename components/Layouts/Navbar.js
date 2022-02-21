@@ -62,14 +62,7 @@ class Navbar extends Component {
 
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav m-auto">
-                                    <li className="nav-item">
-                                        <Link href="/">
-                                            <a className="nav-link" activeClassName="active">
-                                                Beranda
-                                            </a>
-                                        </Link>
-                                    </li>
-
+                                    
                                     <li className="nav-item">
                                         <Link href="/tentang-kami">
                                             <a className="nav-link" activeClassName="active">
@@ -81,7 +74,7 @@ class Navbar extends Component {
                                     <li className="nav-item">
                                         <Link href="/">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Entitas Bisnis <i className='bx bx-chevron-down'></i>
+                                                Entitas Bisnis<i className='bx bx-chevron-down'></i>
                                             </a>
                                         </Link>
 
@@ -107,6 +100,14 @@ class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
+                                        <Link href="/publikasi">
+                                            <a className="nav-link" activeClassName="active">
+                                                Publikasi
+                                            </a>
+                                        </Link>
+                                    </li>
+
+                                    <li className="nav-item">
                                         <Link href="/faq">
                                             <a className="nav-link" activeClassName="active">
                                                 FAQ
@@ -118,6 +119,19 @@ class Navbar extends Component {
                                         <Link href="/kontak">
                                             <a className="nav-link" activeClassName="active">
                                                 Hubungi Kami
+                                            </a>
+                                        </Link>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+
+                            <div className={classOne} id="navbarSupportedContent">
+                                <ul className="navbar-nav ms-auto">
+                                    <li className="nav-item">
+                                        <Link href="/">
+                                            <a className="nav-link" activeClassName="active">
+                                            <button type="button" className="btn btn-warning">Connect Wallet<i className='bx bx-chevron-right'></i></button>
                                             </a>
                                         </Link>
                                     </li>

@@ -18,7 +18,7 @@ class TeamCard extends Component {
                                 </div>
 
                                 <div className="team-content">
-                                    <h3>Karen Peter</h3>
+                                    <h3>Yhouga A. Moppratama</h3>
                                     <span>CEO</span>
 
                                     <ul>

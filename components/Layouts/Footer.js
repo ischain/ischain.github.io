@@ -15,7 +15,7 @@ class Footer extends Component {
                                         <img src="/images/white-logo.png" alt="Image" />
                                     </a>
 
-                                    <p>Islamic Crypto and Blockchain (ISCHAIN) adalah komunitas penggiat mata uang kripto dan blockchain bernuansa syariah</p>
+                                    <p>ISCHAIN (Islamic Cryptocurrency and Blockchain) Community adalah sebuah komunitas islami penggiat industri web3 halal, termasuk diantaranya asset crypto, teknologi blockchain, dan aplikasi desentral.</p>
 
                                     <ul className="social-icon">
                                         <li>
@@ -34,8 +34,8 @@ class Footer extends Component {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
+                                            <a href="https://www.t.me/ischainlounge/" target="_blank">
+                                                <i className="bx bxl-telegram"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -121,7 +121,7 @@ class Footer extends Component {
                                         <li className="address">
                                             <i className="flaticon-envelope"></i>
                                             <span>Email</span>
-                                            hello@jumpx.com
+                                            ischain.id@gmail.com
                                         </li>
 
                                         <li className="address">
@@ -147,7 +147,7 @@ class Footer extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-4">
                                 <div className="copy-right">
-                                    <p>Copyright &copy; {currentYear} Jumpx. All Rights Reserved</p>
+                                    <p>Copyright &copy; {currentYear} ISCHAIN. All Rights Reserved</p>
                                 </div>
                             </div>
 
@@ -171,7 +171,7 @@ class Footer extends Component {
                             <div className="col-lg-3">
                                 <div className="designed">
                                     <p>
-                                        Designed By <i className='bx bx-heart'></i> <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
+                                        Designed By <i className='bx bx-heart'></i> <a href="https://ischain.github.io/" target="_blank">ISCHAIN</a>
                                     </p>
                                 </div>
                             </div>

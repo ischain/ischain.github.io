@@ -188,7 +188,8 @@
     margin-top: 20px;
   }
   .about-img {
-    margin-bottom: 30px;
+    width: 70%;
+    margin-bottom: 10px;
     text-align: center;
   }
   .choose-ue-area .col-8 {
@@ -223,7 +224,7 @@
     line-height: 30px;
   }
   .choose-img {
-    text-align: center;
+    display: none;
   }
   .offer-area .offer-shape img:nth-child(2) {
     opacity: 0.3;
@@ -274,7 +275,7 @@
     margin: 0 0 25px;
   }
   .industries-img.left-img {
-    margin-bottom: 30px;
+    display: none;
   }
   .industries-img.right-img {
     margin-top: 30px;
@@ -898,7 +899,7 @@
   }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 1080px) {
   .main-banner-area {
     padding-bottom: 150px;
   }
@@ -997,7 +998,7 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
   .navbar-area nav .container {
     padding: 0;
   }
@@ -1152,7 +1153,7 @@
     left: 70px;
   }
   .choose-img {
-    text-align: center;
+    display: none;
   }
   .offer-area .offer-shape img:nth-child(2) {
     opacity: 0.3;
@@ -1194,6 +1195,7 @@
   }
   .industries-img.left-img {
     margin-bottom: 30px;
+    display: none;
   }
   .industries-img.right-img {
     margin-top: 30px;
@@ -1652,14 +1654,14 @@
 
 @media only screen and (min-width: 1824px) {
   .main-banner-area.main-banner-area-one {
-    padding-top: 250px;
-    padding-bottom: 350px;
+    padding-top: 140px;
+    padding-bottom: 30px;
   }
   .main-banner-area.main-banner-area-one .banner-text {
     top: 40px;
   }
   .main-banner-area.main-banner-area-one .banner-img img:nth-child(1) {
-    bottom: -445px;
+    bottom: -360px;
   }
   .main-banner-area.main-banner-area-one .banner-img img:nth-child(2) {
     bottom: -850px;
