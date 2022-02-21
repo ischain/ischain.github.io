@@ -14,23 +14,23 @@ const About = () => {
                     <div className="col-lg-6">
                         <div className="about-content">
                             <span>Tentang Kami</span>
-                            <h2>We Complete Every Project With Extra Care As Customer Need</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel.</p>
+                            <h2>ISCHAIN (Islamic Cryptocurrency and Blockchain) Community </h2>
+                            <p>adalah sebuah komunitas islami penggiat industri web3 halal, termasuk diantaranya aset crypto, teknologi blockchain, dan aplikasi desentral. ISCHAIN Community percaya bahwa industri web3 akan menjadi sebuah ekonomi baru yang revolusioner yang disebut sebagai ekonomi token (token economy), dan umat Islam harus menjadi yang terdepan dalam pengadopsiannya tanpa melanggar kaidah dan prinsip Islam.</p>
                             
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6">
                                     <ul>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Advanced caching
+                                            Edukasi Halal Crypto Asset
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Unlimited  applications
+                                            Solusi Teknologi Blockchain
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            PHP 7 ready transfer
+                                            Implementasi Blokchain
                                         </li>
                                     </ul>
                                 </div>
@@ -39,15 +39,15 @@ const About = () => {
                                     <ul>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            blah ready serves
+                                            Pengembangan Ekonomi Umat
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            24/7 Free extra support
+                                            Beranggotakan Praktisi, Pakar, dan Asatidzah
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Optimized stack
+                                            Berjalan Di Atas Syariat Islam
                                         </li>
                                     </ul>
                                 </div>
@@ -55,7 +55,7 @@ const About = () => {
 
                             <Link href="/tentang-kami">
                                 <a className="default-btn">
-                                    Learn More
+                                    <i class="bx bxl-telegram"></i> ISCHAIN Lounge
                                 </a>
                             </Link>
                         </div>
