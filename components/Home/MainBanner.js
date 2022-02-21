@@ -9,7 +9,7 @@ const MainBanner = () => {
                     <div className="col-lg-6">
                         <div className="banner-text">
                             <h1>Stay Halal with ISCHAIN</h1>
-                            <p>ISCHAIN (Islamic Cryptocurrency and Blockchain) Community adalah sebuah komunitas islami penggiat industri web3 halal, termasuk diantaranya aset crypto, teknologi blockchain, dan aplikasi desentral. ISCHAIN Community percaya bahwa industri web3 akan menjadi sebuah ekonomi baru yang revolusioner yang disebut sebagai ekonomi token (token economy), dan umat Islam harus menjadi yang terdepan dalam pengadopsiannya tanpa melanggar kaidah dan prinsip Islam.</p>	
+                            <p>Media Edukasi dan Penyedia Solusi Halal Crypto, Teknologi Blockchain, dan Web3 No. 1 di Indonesia</p>	
 
                             <div className="banner-btn">
                                 <Link href="/tentang-kami">
