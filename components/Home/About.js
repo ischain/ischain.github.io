@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const About = () => {
     return (
-        <section className="about-area pb-100" aria-label="tentang">
+        <section className="about-area pb-50" aria-label="tentang">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6">
