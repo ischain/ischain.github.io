@@ -61,7 +61,7 @@ class Navbar extends Component {
                             </button>
 
                             <div className={classOne} id="navbarSupportedContent">
-                                <ul className="navbar-nav m-auto">
+                                <ul className="navbar-nav ms-auto">
                                     
                                     <li className="nav-item">
                                         <Link href="/tentang-kami">
