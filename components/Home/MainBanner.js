@@ -16,7 +16,7 @@ const MainBanner = () => {
                                      Tentang Kami
                                 </a>
 
-                                <a className="default-btn" href="https://t.me/ischainlounge" target="_blank">
+                                <a className="default-btn" href="https://t.me/ischainlounge" data-target="_blank">
                                      <i class="bx bxl-telegram"></i>  Telegram ISCHAIN
                                 </a>
                             </div>
