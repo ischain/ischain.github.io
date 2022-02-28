@@ -8,6 +8,7 @@ import MainBanner from '../components/Home/MainBanner'
 import WhyChooseUs from '../components/Home/WhyChooseUs'
 import Footer from '../components/Layouts/Footer'
 import Navbar from '../components/Layouts/Navbar'
+import TeamCard from '../components/Team/TeamCard'
 
 const Index = () => {
     return (
@@ -24,6 +25,7 @@ const Index = () => {
             */}
             <News />
             <Footer />
+            <TeamCard />
         </>
     )
 }
