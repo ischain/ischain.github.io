@@ -18,7 +18,7 @@ class TentangKami extends Component {
                     activePageText="Tentang Kami" 
                 /> 
                 <About />
-                <Testimonials />
+                <WhyChooseUs />
                 <TeamTwo />
                 <Footer />
             </>
