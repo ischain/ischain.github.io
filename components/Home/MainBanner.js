@@ -65,7 +65,7 @@ const MainBanner = () => {
                             <div className="single-features">
                                 <i className="flaticon-engineer"></i>
                                 <h3>Ischain Solution</h3>
-                                <p>Menyediakan solusi blockchain dan implementasi teknologinya kepada bisnis dan usaha umat agar dapat meningkatkan daya saing dengan memanfaatkan seluruh keunggulan blockchain yang sesuai dengan prinsip syariat Islam.</p>
+                                <p>Menyediakan solusi blockchain dan implementasi teknologinya kepada bisnis & usaha umat agar dapat meningkatkan daya saing dengan memanfaatkan seluruh keunggulan blockchain yang sesuai prinsip syariat Islam.</p>
                                 
                                 <Link href="/ischain-solution">
                                     <a className="read-more-icon">
