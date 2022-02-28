@@ -80,19 +80,19 @@ class Navbar extends Component {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href="/ischain-academy" activeClassName="active">
+                                                <Link href="/coming-soon" activeClassName="active">
                                                     <a className="nav-link">Ischain Academy</a>
                                                 </Link>
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link href="/ischain-solution" activeClassName="active">
+                                                <Link href="/coming-soon" activeClassName="active">
                                                     <a className="nav-link">Ischain Solution</a>
                                                 </Link>
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link href="/ischain-dao" activeClassName="active">
+                                                <Link href="/coming-soon" activeClassName="active">
                                                     <a className="nav-link">Ischain DAO</a>
                                                 </Link>
                                             </li>
