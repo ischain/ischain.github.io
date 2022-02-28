@@ -12,7 +12,7 @@ class TeamTwo extends Component {
                     </div>
 
                     <div className="section-title">
-                        <h2>Board Member</h2>
+                        <h3>Board Member</h3>
                         </div>
                     <div className="row">
                        <div className="col-lg-6 col-sm-6">
@@ -53,6 +53,8 @@ class TeamTwo extends Component {
                                             <a href="https://www.linkedin.com/in/muhammad-said-hairul-insan-8a533496/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
+                                        </li>
+                                        <li>
                                             <a href="https://twitter.com/muhammadsaidify" target="_blank">
                                                 <i className="bx bxl-twitter"></i>
                                             </a>
@@ -65,7 +67,7 @@ class TeamTwo extends Component {
 
                     
                         <div className="section-title">
-                            <h2>Specialist and Supporting Team</h2>
+                            <h3>Specialist and Supporting Team</h3>
                         </div>
                         <div className="row">
                         <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
@@ -164,23 +166,18 @@ class TeamTwo extends Component {
                         <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
                             <div className="single-team active">
                                 <div className="team-content">
-                                    <h3>Maramis Setiawan, S.T., M.M.T.</h3>
-                                    <span>Head of DeFi Specialist</span>
+                                    <h3>Andika D. Riyandi, S.T., S.H.</h3>
+                                    <span>Head of Engineering</span>
 
                                     <ul className="social-icon">
                                         <li>
-                                            <a href="https://www.facebook.com/maramis.setiawan" target="_blank">
+                                            <a href="https://www.facebook.com/andika.riyandi" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/in/maramis-setiawan-a9842b42/" target="_blank">
+                                            <a href="https://www.linkedin.com/in/andika-riyandi/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.instagram.com/maramissetiawan/" target="_blank">
-                                                <i className="bx bxl-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
@@ -191,13 +188,67 @@ class TeamTwo extends Component {
                         <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
                             <div className="single-team active">
                                 <div className="team-content">
-                                    <h3>Hendarsyah Febrian, S.T.</h3>
-                                    <span>Head of Business and Investment Specialist</span>
+                                    <h3>Fikri Faris, Ph.D.</h3>
+                                    <span>Head of Fundamental Analyst</span>
 
                                     <ul className="social-icon">
                                         <li>
-                                            <a href="https://www.facebook.com/hendarsyah.febryan" target="_blank">
+                                            <a href="https://www.facebook.com/farisonsky" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
+                                            </a>
+                                        </li>
+                                         <li>
+                                            <a href="https://www.linkedin.com/in/fikri-faris-b52aa8193/" target="_blank">
+                                                <i className="bx bxl-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="col-lg-6 col-sm-6 offset-sm-6 offset-lg-0">
+                            <div className="single-team active">
+                                <div className="team-content">
+                                    <h3>Hadi Lestiyono, S.S.T.</h3>
+                                    <span>Head of Community and Social Media</span>
+
+                                    <ul className="social-icon">
+                                        <li>
+                                            <a href="https://www.facebook.com/hadi.lestiyono" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a>
+                                        </li>
+                                         <li>
+                                            <a href="https://www.linkedin.com/in/hadi-lestiyono-b4792543/" target="_blank">
+                                                <i className="bx bxl-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/hadilestiyono/" target="_blank">
+                                                <i className="bx bxl-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="col-lg-6 col-sm-6 offset-sm-6 offset-lg-0">
+                            <div className="single-team active">
+                                <div className="team-content">
+                                    <h3>Fazar Danurwindo, S.T.</h3>
+                                    <span>Head of Strategic Partnership</span>
+
+                                    <ul className="social-icon">
+                                        <li>
+                                            <a href="https://www.facebook.com/Danurfazar" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a>
+                                        </li>
+                                         <li>
+                                            <a href="https://www.linkedin.com/in/fazar-danurwindo-47544b73/" target="_blank">
+                                                <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                     </ul>
