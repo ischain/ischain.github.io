@@ -7,8 +7,8 @@ const WhyChooseUs = () => {
                     <div className="col-8">
                         <div className="choose-title">
                             <span>Misi Kami</span>
-                            <h2>ISCHAIN percaya bahwa industri web3 akan menjadi sebuah ekonomi baru yang revolusioner yang disebut sebagai ekonomi token (token economy), dan umat Islam harus menjadi yang terdepan dalam pengadopsiannya tanpa melanggar kaidah dan prinsip Islam.
-</h2>
+                            <h2>ISCHAIN percaya bahwa industri web3 akan menjadi sebuah ekonomi baru yang revolusioner</h2>
+                            <p>Umat Islam harus menjadi yang terdepan dalam pengadopsiannya tanpa melanggar kaidah dan prinsip Islam.</p>
                         </div>
                     </div>
                 </div>
