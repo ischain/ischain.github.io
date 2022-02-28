@@ -1,7 +1,7 @@
 
 const WhyChooseUs = () => {
     return (
-        <section className="choose-ue-area pb-70">
+        <section className="choose-ue-area pb-100">
             <div className="container">
                 <div className="row">
                     <div className="col-8">
