@@ -6,8 +6,8 @@ const WhyChooseUs = () => {
                 <div className="row">
                     <div className="col-8">
                         <div className="choose-title">
-                            <span>Misi Kami</span>
-                            <h2>ISCHAIN percaya bahwa industri web3 akan menjadi sebuah ekonomi baru yang revolusioner</h2>
+                            <span>Visi & Misi Kami</span>
+                            <h2>Menjadi media edukasi dan penyedia solusi Halal Crypto, Teknologi Blockchain, dan Web3 terbesar di Indonesia</h2>
                         </div>
                     </div>
                 </div>
