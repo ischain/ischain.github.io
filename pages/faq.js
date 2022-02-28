@@ -6,22 +6,22 @@ import AskQuestionForm from '../components/Faq/AskQuestionForm';
 import Footer from '../components/Layouts/Footer';
 
 class Faq extends Component {
-    render() {
-        return (
-            <>
-                <Navbar />
-                <PageBanner 
-                    pageTitle="Frequently Asked Questions" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Frequently Asked Questions" 
-                /> 
-                <FaqContent />
-                <AskQuestionForm />
-                <Footer />
-            </>
-        );
-    }
+  render() {
+    return (
+      <>
+        <Navbar />
+        <PageBanner
+          pageTitle="Frequently Asked Questions"
+          homePageUrl="/"
+          homePageText="Home"
+          activePageText="Frequently Asked Questions"
+        />
+        <FaqContent />
+        {/* <AskQuestionForm /> */}
+        <Footer />
+      </>
+    );
+  }
 }
 
 export default Faq;
