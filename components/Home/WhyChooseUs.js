@@ -6,8 +6,9 @@ const WhyChooseUs = () => {
                 <div className="row">
                     <div className="col-8">
                         <div className="choose-title">
-                            <span>Why Choose Us</span>
-                            <h2>Our Platform Takes Away The Hard Process Of Creating Your Website</h2>
+                            <span>Misi Kami</span>
+                            <h2>ISCHAIN percaya bahwa industri web3 akan menjadi sebuah ekonomi baru yang revolusioner yang disebut sebagai ekonomi token (token economy), dan umat Islam harus menjadi yang terdepan dalam pengadopsiannya tanpa melanggar kaidah dan prinsip Islam.
+</h2>
                         </div>
                     </div>
                 </div>
@@ -20,24 +21,24 @@ const WhyChooseUs = () => {
                                     <span>
                                         01 <i className="flaticon-technical-support"></i>
                                     </span>
-                                    <h3>Safe Security</h3>
-                                    <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <h3>Edukasi</h3>
+                                    <p>Memberikan edukasi menyeluruh terkait blockchain dan aset crypto baik dari sisi syariat, fikih, teknologi, implementasi, hingga manajemen risiko yang dapat memberi kemaslahatan umat secara umum.</p>
                                 </li>
 
                                 <li className="ml">
                                     <span>
-                                        02 <i className="flaticon-shield"></i>
+                                        02 <i className="flaticon-technical-support"></i>
                                     </span>
-                                    <h3>Technical Support</h3>
-                                    <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <h3>Kolaborasi</h3>
+                                    <p>Membangun kolaborasi bersama pakar blockchain, edukator crypto, dan asatidzah/ulama untuk membangun ekosistem halal crypto dan pengembangan teknologi blockchain yang dapat memberi kemaslahatan untuk umat secara umum.</p>
                                 </li>
 
                                 <li className="ml-25">
                                     <span>
-                                        03 <i className="flaticon-support"></i>
+                                        03 <i className="flaticon-technical-support"></i>
                                     </span>
-                                    <h3>Live Support</h3>
-                                    <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <h3>Solusi</h3>
+                                    <p>Menyediakan solusi blockchain dan implementasi teknologinya kepada bisnis dan usaha umat agar dapat meningkatkan daya saing dengan memanfaatkan seluruh keunggulan blockchain yang sesuai dengan prinsip syariat Islam.</p>
                                 </li>
                             </ul>
                         </div>
