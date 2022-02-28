@@ -11,11 +11,11 @@ class TeamTwo extends Component {
                         <p>Struktur tim ISCHAIN terdiri dari Advisory Board yang berisikan Pakar Blockchain dan Ustadz Pembina serta Pengurus yang berisikan Praktisi, Peneliti, Edukator, Developer, dan sebagainya.</p>
                     </div>
 
-                    <div className="row">
-                        <div className="section-title">
+                    <div className="section-title">
                         <h2>Board Member</h2>
                         </div>
-                        <div className="col-lg-6 col-sm-6">
+                    <div className="row">
+                       <div className="col-lg-6 col-sm-6">
                             <div className="single-team active">
                                 <div className="team-content">
                                     <h3>Yhouga A. Moppratama, S.T.</h3>
@@ -57,10 +57,13 @@ class TeamTwo extends Component {
                                 </div>
                             </div>
                         </div>
-            
+                    </div>
+
+                    
                         <div className="section-title">
-                        <h2>Specialist & Supporting Teamr</h2>
+                            <h2>Specialist and Supporting Team</h2>
                         </div>
+                        <div className="row">
                         <div className="col-lg-3 col-sm-6 offset-sm-3 offset-lg-0">
                             <div className="single-team active">
                                 <div className="team-content">
