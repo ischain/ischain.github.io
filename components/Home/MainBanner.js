@@ -12,11 +12,11 @@ const MainBanner = () => {
                             <p>ISCHAIN adalah komunitas Islami penggiat industri Web3 halal<br></br><br></br>
                             Visi kami menjadi media edukasi dan penyedia solusi Halal Crypto, Teknologi Blockchain, dan Web3 terbesar di Indonesia</p>	
                             <div className="banner-btn">
-                                <a className="default-btn" href="#tentang">
+                                <a className="default-btn" href="/tentang-kami" target="_blank">
                                      Tentang Kami
                                 </a>
 
-                                <a className="default-btn" href="https://t.me/ischainlounge" data-target="_blank">
+                                <a className="default-btn" href="https://t.me/ischainlounge" target="_blank">
                                      <i class="bx bxl-telegram"></i>  Telegram ISCHAIN
                                 </a>
                             </div>
