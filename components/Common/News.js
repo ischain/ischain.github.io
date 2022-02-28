@@ -16,14 +16,14 @@ class News extends Component {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-news">
                                 <div className="blog-img">
-                                    <Link href="/detil-publikasi">
+                                    <Link href="/konten/ebook-soal-jawab-cryptocurrency">
                                         <a>
-                                            <img src="/images/blog/blog1.png" alt="Image" />
+                                            <img src="/images/blog/blog3.png" alt="Image" />
                                         </a>
                                     </Link>
 
                                     <div className="dates">
-                                        <span>20 February</span>
+                                        <span>17 Februari</span>
                                     </div>
                                 </div>
 
@@ -41,15 +41,15 @@ class News extends Component {
                                         </li>
                                     </ul>
 
-                                    <Link href="/detil-publikasi">
+                                    <Link href="/konten/ebook-soal-jawab-cryptocurrency">
                                         <a>
-                                            <h3>Is Machine Learning Right For You</h3>
+                                            <h3>Soal Jawab Cryptocurrency</h3>
                                         </a>
                                     </Link>
 
-                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga veritatis veniam corrupti perferendis minima in.</p>
+                                    <p>Publikasi pertama ISCHAIN membahas 10 persoalan umum terkait cryptocurrency</p>
                                     
-                                    <Link href="/detil-publikasi">
+                                    <Link href="/konten/ebook-soal-jawab-cryptocurrency">
                                         <a className="read-more">
                                             Read More <i className="bx bx-plus"></i>
                                         </a>
@@ -63,7 +63,7 @@ class News extends Component {
                                 <div className="blog-img">
                                     <Link href="/detil-publikasi">
                                         <a>
-                                            <img src="/images/blog/blog2.png" alt="Image" />
+                                            <img src="/images/blog/blog.png" alt="Image" />
                                         </a>
                                     </Link>
 
