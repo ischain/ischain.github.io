@@ -24,8 +24,8 @@ const Index = () => {
             <Testimonials />
             */}
             <News />
-            <Footer />
             <TeamCard />
+            <Footer />
         </>
     )
 }
