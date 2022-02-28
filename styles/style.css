@@ -279,6 +279,16 @@ textarea.form-control {
   background-color: #24416b;
 }
 
+.align-paragraph {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.centerized-row {
+  flex-flow: row wrap;
+  display: flex;
+  flex-basis: auto;
+}
 /*
 Bg Color Four Area Style
 ======================================================*/
