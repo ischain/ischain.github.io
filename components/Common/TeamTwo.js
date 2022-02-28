@@ -96,7 +96,7 @@ class TeamTwo extends Component {
                         <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
                             <div className="single-team active">
                                 <div className="team-single-img">
-                                    <img src="/images/team/team7.png" alt="Image" />
+                                    <img src="/images/team/team2.png" alt="Image" />
 
                                     <div className="team-img">
                                         <img src="/images/team/team-shape.png" alt="Image" />
