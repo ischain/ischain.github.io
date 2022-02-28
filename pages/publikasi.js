@@ -17,7 +17,7 @@ class Publikasi extends Component {
                     activePageText="Publikasi" 
                 /> 
                 <News />
-                <div className="pb-50">
+                <div className="pt-100 pb-50">
                     <Partner />
                 </div>
                 <Footer />
