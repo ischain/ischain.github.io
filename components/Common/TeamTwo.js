@@ -10,9 +10,129 @@ class TeamTwo extends Component {
                         <span>Tim ISCHAIN</span>
                         <p>Struktur tim ISCHAIN terdiri dari Advisory Board yang berisikan Pakar Blockchain dan Ustadz Pembina serta Pengurus yang berisikan Praktisi, Peneliti, Edukator, Developer, dan sebagainya.</p>
                     </div>
-
+                    
                     <div className="section-title">
-                        <h3 style="color:#1969ff">Board Member</h3>
+                        <span>Advisory Board</span>
+                        </div>
+                    <div className="row">
+                       <div className="col-lg-6 col-sm-6">
+                            <div className="single-team active">
+                                <div className="team-content">
+                                    <h3>Ir. Noor Akhmad Setiawan, Ph.D., IPM.</h3>
+                                    <span>Ustadz Pembina</span>
+
+                                    <ul className="social-icon">
+                                        <li>
+                                            <a href="https://www.facebook.com/nasetiawan" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/nasetiawan/" target="_blank">
+                                                <i className="bx bxl-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-lg-6 col-sm-6">
+                            <div className="single-team active">
+                                <div className="team-content">
+                                    <h3>Achmad Bahauddin, S.T., M.T.</h3>
+                                    <span>Praktisi Pembina</span>
+
+                                    <ul className="social-icon">
+                                        <li>
+                                            <a href="https://www.facebook.com/achmad.bahauddin" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/achmadbahauddin/" target="_blank">
+                                                <i className="bx bxl-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/muhammadsaidify" target="_blank">
+                                                <i className="bx bxl-twitter"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
+                            <div className="single-team active">
+                                <div className="team-content">
+                                    <h3>Firdaus Prabowo, Ph.D.</h3>
+                                    <span>Head of Blockchain Tech Specialist</span>
+
+                                    <ul className="social-icon">
+                                        <li>
+                                            <a href="https://www.facebook.com/firdaus.prabowo" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/fprabowo/" target="_blank">
+                                                <i className="bx bxl-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
+                            <div className="single-team active">
+                                <div className="team-content">
+                                    <h3>Maramis Setiawan, S.T., M.M.T.</h3>
+                                    <span>Head of DeFi Specialist</span>
+
+                                    <ul className="social-icon">
+                                        <li>
+                                            <a href="https://www.facebook.com/maramis.setiawan" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/maramis-setiawan-a9842b42/" target="_blank">
+                                                <i className="bx bxl-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/maramissetiawan/" target="_blank">
+                                                <i className="bx bxl-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
+                            <div className="single-team active">
+                                <div className="team-content">
+                                    <h3>Hendarsyah Febrian, S.T.</h3>
+                                    <span>Head of Business and Investment Specialist</span>
+
+                                    <ul className="social-icon">
+                                        <li>
+                                            <a href="https://www.facebook.com/hendarsyah.febryan" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div className="section-title">
+                        <span>Board Member</span>
                         </div>
                     <div className="row">
                        <div className="col-lg-6 col-sm-6">
@@ -67,7 +187,7 @@ class TeamTwo extends Component {
 
                     
                         <div className="section-title">
-                            <h3 style="color:#1969ff">Specialist and Supporting Team</h3>
+                            <span>Specialist and Supporting Team</span>
                         </div>
                         <div className="row">
                         <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
