@@ -21,6 +21,9 @@ class TeamTwo extends Component {
 
                                     <ul>
                                         <li>
+                                            <a href="https://www.facebook.com/yhouga.ariesta" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a>
                                             <a href="https://id.linkedin.com/in/yhouga-ariesta" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
@@ -34,12 +37,18 @@ class TeamTwo extends Component {
                             <div className="single-team active">
                                 <div className="team-content">
                                     <h3>M. Said Hairul Insan, S.E.</h3>
-                                    <span>Executive</span>
+                                    <span>Treasury</span>
 
                                     <ul>
                                         <li>
+                                            <a href="https://facebook.com/muhammadsaidify" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a>
                                             <a href="https://www.linkedin.com/in/muhammad-said-hairul-insan-8a533496/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
+                                            </a>
+                                            <a href="https://twitter.com/muhammadsaidify" target="_blank">
+                                                <i className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                     </ul>
