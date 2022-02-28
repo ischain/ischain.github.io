@@ -39,7 +39,6 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/coming-soon">
                                                 <a>
-                                                    <i className="bx bx-chevrons-right"></i>
                                                     Ischain Academy
                                                 </a>
                                             </Link>
@@ -47,7 +46,6 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/coming-soon">
                                                 <a>
-                                                    <i className="bx bx-chevrons-right"></i>
                                                     Ischain Solution
                                                 </a>
                                             </Link>
@@ -55,7 +53,6 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/coming-soon">
                                                 <a>
-                                                    <i className="bx bx-chevrons-right"></i>
                                                     Ischain DAO
                                                 </a>
                                             </Link>
@@ -72,7 +69,6 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/about-1">
                                                 <a>
-                                                    <i className="bx bx-chevrons-right"></i>
                                                     Tentang Kami
                                                 </a>
                                             </Link>
@@ -80,7 +76,6 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/publikasi">
                                                 <a>
-                                                    <i className="bx bx-chevrons-right"></i>
                                                     Publikasi
                                                 </a>
                                             </Link>
@@ -88,7 +83,6 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/team">
                                                 <a>
-                                                    <i className="bx bx-chevrons-right"></i>
                                                     Tim Ischain
                                                 </a>
                                             </Link>
