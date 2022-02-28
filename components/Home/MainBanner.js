@@ -12,7 +12,7 @@ const MainBanner = () => {
                             <p>ISCHAIN adalah komunitas Islami penggiat industri Web3 halal<br></br><br></br>
                             Visi kami menjadi media edukasi dan penyedia solusi Halal Crypto, Teknologi Blockchain, dan Web3 terbesar di Indonesia</p>	
                             <div className="banner-btn">
-                                <a className="default-btn" href="#about-area">
+                                <a className="default-btn" href="#tentang">
                                      Tentang Kami
                                 </a>
 
