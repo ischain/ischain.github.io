@@ -6,22 +6,22 @@ import ContactForm from '../components/Contact/ContactForm';
 import Footer from '../components/Layouts/Footer';
 
 class Contact extends Component {
-    render() {
-        return (
-            <>
-                <Navbar />
-                <PageBanner 
-                    pageTitle="Contact Style One" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Contact Style One" 
-                /> 
-                <ContactInfo />
-                <ContactForm />
-                <Footer />
-            </>
-        );
-    }
+  render() {
+    return (
+      <>
+        <Navbar />
+        <PageBanner
+          pageTitle="Hubungi Kami"
+          homePageUrl="/"
+          homePageText="Home"
+          activePageText="Hubungi Kami"
+        />
+        <ContactInfo />
+        {/* <ContactForm /> */}
+        <Footer />
+      </>
+    );
+  }
 }
 
 export default Contact;
