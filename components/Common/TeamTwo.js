@@ -107,7 +107,8 @@ class TeamTwo extends Component {
                             </div>
                         </div>
                     </div>
-            
+
+                <div className="container"></div>
                     <div className="section-title">
                         <h3>Board Member</h3>
                         </div>
@@ -353,6 +354,7 @@ class TeamTwo extends Component {
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </section>
         );
