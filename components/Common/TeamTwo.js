@@ -12,18 +12,14 @@ class TeamTwo extends Component {
                     </div>
 
                     <div className="row">
-                        <div className="col-lg-3 col-sm-6">
+                        <h2>Board Member</h2>
+                        <div className="col-lg-6 col-sm-6">
                             <div className="single-team active">
                                 <div className="team-content">
-                                    <h3>Yhouga A. Moppratama</h3>
+                                    <h3>Yhouga A. Moppratama, S.T.</h3>
                                     <span>CEO</span>
 
                                     <ul>
-                                        <li>
-                                            <a href="https://www.facebook.com/yhouga.ariesta" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a>
-                                        </li>
                                         <li>
                                             <a href="https://id.linkedin.com/in/yhouga-ariesta" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
@@ -34,31 +30,16 @@ class TeamTwo extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-3 col-sm-6">
+                        <div className="col-lg-6 col-sm-6">
                             <div className="single-team active">
                                 <div className="team-content">
-                                    <h3>Kene Alex Piter</h3>
+                                    <h3>M. Said Hairul Insan, S.E.</h3>
                                     <span>Executive</span>
 
                                     <ul>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://twitter.com/" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.linkedin.com/" target="_blank">
+                                            <a href="https://www.linkedin.com/in/muhammad-said-hairul-insan-8a533496/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
                                             </a>
                                         </li>
                                     </ul>
