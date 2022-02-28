@@ -12,7 +12,7 @@ class TeamTwo extends Component {
                     </div>
 
                     <div className="section-title">
-                        <h3>Board Member</h3>
+                        <h3 style="color:#1969ff">Board Member</h3>
                         </div>
                     <div className="row">
                        <div className="col-lg-6 col-sm-6">
@@ -67,7 +67,7 @@ class TeamTwo extends Component {
 
                     
                         <div className="section-title">
-                            <h3>Specialist and Supporting Team</h3>
+                            <h3 style="color:#1969ff">Specialist and Supporting Team</h3>
                         </div>
                         <div className="row">
                         <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
