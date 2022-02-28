@@ -19,18 +19,8 @@ class Footer extends Component {
 
                                     <ul className="social-icon">
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://twitter.com/" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.linkedin.com/" target="_blank">
-                                                <i className="bx bxl-linkedin"></i>
+                                            <a href="https://www.instagram.com/ischain.id" target="_blank">
+                                                <i className="bx bxl-instagram"></i>
                                             </a>
                                         </li>
                                         <li>
@@ -47,25 +37,25 @@ class Footer extends Component {
                                     <h3>Entitas Bisnis</h3>
                                     <ul>
                                         <li>
-                                            <Link href="/ischain-academy">
+                                            <Link href="/coming-soon">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i className="bx bx-chevrons-right"></i>
                                                     Ischain Academy
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/ischain-solution">
+                                            <Link href="/coming-soon">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i className="bx bx-chevrons-right"></i>
                                                     Ischain Solution
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/ischain-dao">
+                                            <Link href="/coming-soon">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i className="bx bx-chevrons-right"></i>
                                                     Ischain DAO
                                                 </a>
                                             </Link>
@@ -82,23 +72,23 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/about-1">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i className="bx bx-chevrons-right"></i>
                                                     Tentang Kami
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/services">
+                                            <Link href="/publikasi">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
-                                                    Entitas Bisnis
+                                                    <i className="bx bx-chevrons-right"></i>
+                                                    Publikasi
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/team">
                                                 <a>
-                                                    <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i className="bx bx-chevrons-right"></i>
                                                     Tim Ischain
                                                 </a>
                                             </Link>
@@ -113,21 +103,9 @@ class Footer extends Component {
 
                                     <ul className="information">
                                         <li className="address">
-                                            <i className="flaticon-call"></i>
-                                            <span>Phone</span>
-                                            +882-569-756
-                                        </li>
-
-                                        <li className="address">
                                             <i className="flaticon-envelope"></i>
                                             <span>Email</span>
                                             ischain.id@gmail.com
-                                        </li>
-
-                                        <li className="address">
-                                            <i className="flaticon-maps-and-flags"></i>
-                                            <span>Address</span>
-                                            123, Western Road, Melbourne Australia
                                         </li>
                                     </ul>
                                 </div>
