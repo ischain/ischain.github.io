@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class News extends Component {
     render() {
         return (
-            <section className="news-area pt-100 pb-50">
+            <section className="news-area pt-100">
                 <div className="container">
                     <div className="section-title">
                     <a id="publikasi"><span>Riset dan Publikasi</span></a>
