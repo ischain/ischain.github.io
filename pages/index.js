@@ -16,10 +16,12 @@ const Index = () => {
             <MainBanner />
             <About />
             <WhyChooseUs />
+            {/*
             <Services />
             <MakeYourBusiness />
             <WhatWeOffer />
             <Testimonials />
+            */}
             <News />
             <Footer />
         </>
