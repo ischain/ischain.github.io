@@ -107,6 +107,7 @@ class Navbar extends Component {
                                         </Link>
                                     </li>
 
+                                    {/*
                                     <li className="nav-item">
                                         <Link href="/faq">
                                             <a className="nav-link" activeClassName="active">
@@ -114,6 +115,7 @@ class Navbar extends Component {
                                             </a>
                                         </Link>
                                     </li>
+                                    */}
 
                                     <li className="nav-item">
                                         <Link href="/kontak">
@@ -125,7 +127,8 @@ class Navbar extends Component {
                                     
                                 </ul>
                             </div>
-
+                            
+                            {/*
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav ms-auto">
                                     <li className="nav-item">
@@ -137,6 +140,7 @@ class Navbar extends Component {
                                     </li>
                                 </ul>
                             </div>
+                            */}
                         </div>
                     </nav>
                 </div>
