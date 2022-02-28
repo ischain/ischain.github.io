@@ -53,7 +53,7 @@ const MainBanner = () => {
                                 <h3>Ischain Academy</h3>
                                 <p>Memberikan edukasi menyeluruh terkait blockchain dan aset crypto baik dari sisi syariat, fikih, teknologi, implementasi, hingga manajemen risiko yang dapat memberi kemaslahatan umat secara umum.</p>
 
-                                <Link href="/ischain-academy">
+                                <Link href="/coming-soon">
                                     <a className="read-more-icon">
                                         <span className="flaticon-right-arrow"></span>
                                     </a>
@@ -67,7 +67,7 @@ const MainBanner = () => {
                                 <h3>Ischain Solution</h3>
                                 <p>Menyediakan solusi blockchain dan implementasi teknologinya kepada bisnis & usaha umat agar dapat meningkatkan daya saing dengan memanfaatkan seluruh keunggulan blockchain yang sesuai prinsip syariat Islam.</p>
                                 
-                                <Link href="/ischain-solution">
+                                <Link href="/coming-soon">
                                     <a className="read-more-icon">
                                         <span className="flaticon-right-arrow"></span>
                                     </a>
@@ -81,7 +81,7 @@ const MainBanner = () => {
                                 <h3>Ischain DAO</h3>
                                 <p>Menjaga nilai treasury agar tumbuh konsisten dengan pengelolaan yang otomatis dan terdesentralisasi sesuai dengan prinsip-prinsip muamalah syariah yang dapat memberi kemaslahatan umat secara umum</p>
                                 
-                                <Link href="/service-details">
+                                <Link href="/coming-soon">
                                     <a className="read-more-icon">
                                         <span className="flaticon-right-arrow"></span>
                                     </a>
