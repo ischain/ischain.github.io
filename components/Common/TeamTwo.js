@@ -12,14 +12,16 @@ class TeamTwo extends Component {
                     </div>
 
                     <div className="row">
+                        <div className="section-title">
                         <h2>Board Member</h2>
+                        </div>
                         <div className="col-lg-6 col-sm-6">
                             <div className="single-team active">
                                 <div className="team-content">
                                     <h3>Yhouga A. Moppratama, S.T.</h3>
                                     <span>CEO</span>
 
-                                    <ul>
+                                    <ul className="social-icon">
                                         <li>
                                             <a href="https://www.facebook.com/yhouga.ariesta" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
@@ -39,7 +41,7 @@ class TeamTwo extends Component {
                                     <h3>M. Said Hairul Insan, S.E.</h3>
                                     <span>Treasury</span>
 
-                                    <ul>
+                                    <ul className="social-icon">
                                         <li>
                                             <a href="https://facebook.com/muhammadsaidify" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
@@ -55,40 +57,57 @@ class TeamTwo extends Component {
                                 </div>
                             </div>
                         </div>
-
+            
+                        <div className="section-title">
+                        <h2>Specialist & Supporting Teamr</h2>
+                        </div>
                         <div className="col-lg-3 col-sm-6 offset-sm-3 offset-lg-0">
                             <div className="single-team active">
-                                <div className="team-single-img">
-                                    <img src="/images/team/team2.png" alt="Image" />
-
-                                    <div className="team-img">
-                                        <img src="/images/team/team-shape.png" alt="Image" />
-                                    </div>
-                                </div>
-
                                 <div className="team-content">
-                                    <h3>Alisa Maria</h3>
-                                    <span>Developer</span>
+                                    <h3>Firdaus Prabowo, Ph.D.</h3>
+                                    <span>Head of Blockchain Tech Specialist</span>
 
-                                    <ul>
+                                    <ul className="social-icon">
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/firdaus.prabowo" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://twitter.com/" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.linkedin.com/" target="_blank">
+                                            <a href="https://www.linkedin.com/in/fprabowo/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
                                             <a href="https://www.pinterest.com/" target="_blank">
                                                 <i className="bx bxl-pinterest-alt"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div className="col-lg-3 col-sm-6 offset-sm-3 offset-lg-0">
+                            <div className="single-team active">
+                                <div className="team-content">
+                                    <h3>Maramis Setiawan, S.T., M.M.T.</h3>
+                                    <span>Head of DeFi Specialist</span>
+
+                                    <ul className="social-icon">
+                                        <li>
+                                            <a href="https://www.facebook.com/maramis.setiawan" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/maramis-setiawan-a9842b42/" target="_blank">
+                                                <i className="bx bxl-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/maramissetiawan/" target="_blank">
+                                                <i className="bx bxl-instagram"></i>
                                             </a>
                                         </li>
                                     </ul>
