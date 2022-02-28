@@ -11,6 +11,9 @@ class TeamTwo extends Component {
                         <p>Struktur tim ISCHAIN terdiri dari Advisory Board yang berisikan Pakar Blockchain dan Ustadz Pembina serta Pengurus yang berisikan Praktisi, Peneliti, Edukator, Developer, dan sebagainya.</p>
                     </div>
 
+                    <div className="section-title">
+                        <h2>Board Member</h2>
+                        </div>
                     <div className="row">
                        <div className="col-lg-6 col-sm-6">
                             <div className="single-team active">
@@ -54,8 +57,14 @@ class TeamTwo extends Component {
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div className="col-lg-3 col-sm-6 offset-sm-3 offset-lg-0">
+                    
+                        <div className="section-title">
+                            <h2>Specialist and Supporting Team</h2>
+                        </div>
+                        <div className="row">
+                        <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
                             <div className="single-team active">
                                 <div className="team-content">
                                     <h3>Firdaus Prabowo, Ph.D.</h3>
@@ -82,7 +91,7 @@ class TeamTwo extends Component {
                             </div>
                         </div>
             
-                        <div className="col-lg-3 col-sm-6 offset-sm-3 offset-lg-0">
+                        <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
                             <div className="single-team active">
                                 <div className="team-content">
                                     <h3>Maramis Setiawan, S.T., M.M.T.</h3>
