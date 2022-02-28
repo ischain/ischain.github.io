@@ -4,7 +4,7 @@ import Link from 'next/link';
 class TeamTwo extends Component {
     render() {
         return (
-            <section className="team-area pb-70">
+            <section className="team-area pt-100 pb-70">
                 <div className="container">
                     <div className="section-title">
                         <span>Team</span>
