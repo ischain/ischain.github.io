@@ -5607,6 +5607,13 @@ Blog Details Area Style
 /*
 Contact Info Area Style 
 ================================*/
+.contact-center {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+}
+
 .contact-info-area .single-contact-info {
   text-align: center;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
