@@ -48,12 +48,6 @@ const About = () => {
                                     </ul>
                                 </div>
                             </div>
-
-                            <Link href="/tentang-kami">
-                                <a className="default-btn">
-                                    <i class="bx bxl-telegram"></i>   ISCHAIN Lounge
-                                </a>
-                            </Link>
                         </div>
                     </div>
                 </div>
