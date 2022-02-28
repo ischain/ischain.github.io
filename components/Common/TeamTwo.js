@@ -12,7 +12,7 @@ class TeamTwo extends Component {
                     </div>
                     
                     <div className="section-title">
-                        <span>Advisory Board</span>
+                        <h3>Advisory Board</h3>
                         </div>
                     <div className="row">
                        <div className="col-lg-6 col-sm-6">
@@ -54,11 +54,6 @@ class TeamTwo extends Component {
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
-                                        <li>
-                                            <a href="https://twitter.com/muhammadsaidify" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
-                                            </a>
-                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -67,17 +62,26 @@ class TeamTwo extends Component {
                         <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
                             <div className="single-team active">
                                 <div className="team-content">
-                                    <h3>Firdaus Prabowo, Ph.D.</h3>
-                                    <span>Head of Blockchain Tech Specialist</span>
+                                    <h3>Fida' Munadzir, B.A.</h3>
+                                    <span>Ustadz Pembina</span>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
+                            <div className="single-team active">
+                                <div className="team-content">
+                                    <h3>Andy Bangkit Setiawan, Ph.D.</h3>
+                                    <span>Praktisi Pembina</span>
 
                                     <ul className="social-icon">
                                         <li>
-                                            <a href="https://www.facebook.com/firdaus.prabowo" target="_blank">
+                                            <a href="https://www.facebook.com/andy.bangkit" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/in/fprabowo/" target="_blank">
+                                            <a href="https://www.linkedin.com/in/andy-bangkit-a94a7676/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
@@ -89,39 +93,12 @@ class TeamTwo extends Component {
                         <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
                             <div className="single-team active">
                                 <div className="team-content">
-                                    <h3>Maramis Setiawan, S.T., M.M.T.</h3>
-                                    <span>Head of DeFi Specialist</span>
+                                    <h3>Ade Setiawan</h3>
+                                    <span>Ustadz Pembina</span>
 
                                     <ul className="social-icon">
                                         <li>
-                                            <a href="https://www.facebook.com/maramis.setiawan" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.linkedin.com/in/maramis-setiawan-a9842b42/" target="_blank">
-                                                <i className="bx bxl-linkedin"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.instagram.com/maramissetiawan/" target="_blank">
-                                                <i className="bx bxl-instagram"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-            
-                        <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
-                            <div className="single-team active">
-                                <div className="team-content">
-                                    <h3>Hendarsyah Febrian, S.T.</h3>
-                                    <span>Head of Business and Investment Specialist</span>
-
-                                    <ul className="social-icon">
-                                        <li>
-                                            <a href="https://www.facebook.com/hendarsyah.febryan" target="_blank">
+                                            <a href="https://www.facebook.com/adese641" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li>
@@ -132,7 +109,7 @@ class TeamTwo extends Component {
                     </div>
             
                     <div className="section-title">
-                        <span>Board Member</span>
+                        <h3>Board Member</h3>
                         </div>
                     <div className="row">
                        <div className="col-lg-6 col-sm-6">
@@ -187,7 +164,7 @@ class TeamTwo extends Component {
 
                     
                         <div className="section-title">
-                            <span>Specialist and Supporting Team</span>
+                            <h3>Specialist and Supporting Team</h3>
                         </div>
                         <div className="row">
                         <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
