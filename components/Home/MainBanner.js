@@ -51,7 +51,7 @@ const MainBanner = () => {
                             <div className="single-features">
                                 <i className="flaticon-artificial-intelligence"></i>
                                 <h3>Ischain Academy</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
+                                <p>Memberikan edukasi menyeluruh terkait blockchain dan aset crypto baik dari sisi syariat, fikih, teknologi, implementasi, hingga manajemen risiko yang dapat memberi kemaslahatan umat secara umum.</p>
 
                                 <Link href="/ischain-academy">
                                     <a className="read-more-icon">
@@ -65,7 +65,7 @@ const MainBanner = () => {
                             <div className="single-features">
                                 <i className="flaticon-engineer"></i>
                                 <h3>Ischain Solution</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
+                                <p>Menyediakan solusi blockchain dan implementasi teknologinya kepada bisnis dan usaha umat agar dapat meningkatkan daya saing dengan memanfaatkan seluruh keunggulan blockchain yang sesuai dengan prinsip syariat Islam.</p>
                                 
                                 <Link href="/ischain-solution">
                                     <a className="read-more-icon">
@@ -79,7 +79,7 @@ const MainBanner = () => {
                             <div className="single-features">
                                 <i className="flaticon-success"></i>
                                 <h3>Ischain DAO</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.</p>
+                                <p>Menjaga nilai treasury agar tumbuh konsisten dengan pengelolaan yang otomatis dan terdesentralisasi sesuai dengan prinsip-prinsip muamalah syariah yang dapat memberi kemaslahatan umat secara umum</p>
                                 
                                 <Link href="/service-details">
                                     <a className="read-more-icon">
