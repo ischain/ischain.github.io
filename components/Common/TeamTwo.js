@@ -10,9 +10,10 @@ class TeamTwo extends Component {
                         <span>Tim ISCHAIN</span>
                         <p>Struktur tim ISCHAIN terdiri dari Advisory Board yang berisikan Pakar Blockchain dan Ustadz Pembina serta Pengurus yang berisikan Praktisi, Peneliti, Edukator, Developer, dan sebagainya.</p>
                     </div>
-                    
+
+                    <div className="single-team active">     
                     <div className="section-title">
-                        <h3>Advisory Board</h3>
+                        <span>Advisory Board</span>
                         </div>
                     <div className="row">
                        <div className="col-lg-6 col-sm-6">
@@ -106,10 +107,11 @@ class TeamTwo extends Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
+                    </div></div>
+ 
+                <div className="single-team active">    
                     <div className="section-title">
-                        <h3>Board Member</h3>
+                        <span>Board Member</span>
                         </div>
                     <div className="row">
                        <div className="col-lg-6 col-sm-6">
@@ -161,11 +163,12 @@ class TeamTwo extends Component {
                             </div>
                         </div>
                     </div>
-
+       
+                    <br></br>
                     
-                        <div className="section-title">
-                            <h3>Specialist and Supporting Team</h3>
-                        </div>
+                    <div className="section-title">
+                            <span>Specialist and Supporting Team</span>
+                    </div>
                         <div className="row">
                         <div className="col-lg-4 col-sm-6 offset-sm-4 offset-lg-0">
                             <div className="single-team active">
@@ -353,7 +356,7 @@ class TeamTwo extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div></div>
             </section>
         );
     }
