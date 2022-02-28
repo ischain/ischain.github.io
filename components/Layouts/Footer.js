@@ -19,7 +19,7 @@ class Footer extends Component {
 
                                     <ul className="social-icon">
                                         <li>
-                                            <a href="https://www.instagram.com/ischain.id" target="_blank">
+                                            <a href="https://instagram.com/ischain.id" target="_blank">
                                                 <i className="bx bxl-instagram"></i>
                                             </a>
                                         </li>
@@ -39,15 +39,15 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/coming-soon">
                                                 <a>
-                                                <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i className="right-icon bx bx-chevrons-right"></i>
                                                     Ischain Academy
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/coming-soon">
+                                             <Link href="/coming-soon">
                                                 <a>
-                                                <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i className="right-icon bx bx-chevrons-right"></i>
                                                     Ischain Solution
                                                 </a>
                                             </Link>
@@ -55,7 +55,7 @@ class Footer extends Component {
                                         <li>
                                             <Link href="/coming-soon">
                                                 <a>
-                                                <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i className="right-icon bx bx-chevrons-right"></i>
                                                     Ischain DAO
                                                 </a>
                                             </Link>
@@ -70,26 +70,18 @@ class Footer extends Component {
 
                                     <ul>
                                         <li>
-                                            <Link href="/about-1">
+                                            <Link href="/tentang-kami">
                                                 <a>
-                                                <i className="right-icon bx bx-chevrons-right"></i>
+                                                    <i className="right-icon bx bx-chevrons-right"></i>
                                                     Tentang Kami
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/publikasi">
-                                                <i className="right-icon bx bx-chevrons-right"></i>
                                                 <a>
+                                                    <i className="right-icon bx bx-chevrons-right"></i>
                                                     Publikasi
-                                                </a>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/team">
-                                                <i className="right-icon bx bx-chevrons-right"></i>
-                                                <a>
-                                                    Tim Ischain
                                                 </a>
                                             </Link>
                                         </li>
@@ -99,7 +91,7 @@ class Footer extends Component {
 
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
-                                    <h3>Information</h3>
+                                    <h3>Informasi</h3>
 
                                     <ul className="information">
                                         <li className="address">
