@@ -117,7 +117,7 @@ class News extends Component {
                 <div className="blog-img">
                   <Link href="">
                     <a>
-                      <img src="/images/blog/blog8.png" alt="Image" />
+                      <img src="/images/blog/ebook3.png" alt="Image" />
                     </a>
                   </Link>
 
