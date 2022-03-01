@@ -19,6 +19,52 @@ class News extends Component {
           </div>
 
           <div className="row centerized-row">
+             <div className="col-lg-4 col-md-6">
+              <div className="single-news">
+                <div className="blog-img">
+                  <Link href="/publications/ischain_soal_jawab_cryptocurrency.pdf">
+                    <a>
+                      <img src="/images/blog/blog2.png" alt="Image" />
+                    </a>
+                  </Link>
+
+                  <div className="dates">
+                    <span>17 February</span>
+                  </div>
+                </div>
+
+                <div className="news-content-wrap">
+                  <ul>
+                    <li>
+                      <Link href="#">
+                        <a>
+                          <i className="flaticon-user"></i> Admin
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+
+                  <Link href="#">
+                    <a>
+                      <h3>Soal Jawab Cryptocurrency</h3>
+                    </a>
+                  </Link>
+
+                  <p className="align-paragraph">
+                    Berisi kumpulan soal jawab tentang beberapa permasalahan
+                    atau keraguan yang sering muncul tentang Cryptocurrency yang
+                    coba dijawab oleh Team Fiqh ISCHAIN
+                  </p>
+
+                  <Link href="/publications/ischain_soal_jawab_cryptocurrency.pdf">
+                    <a className="read-more">
+                      Unduh <i className="bx bx-download"></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+      
             <div className="col-lg-4 col-md-6">
               <div className="single-news">
                 <div className="blog-img">
@@ -29,7 +75,7 @@ class News extends Component {
                   </Link>
 
                   <div className="dates">
-                    <span>20 February</span>
+                    <span>24 February</span>
                   </div>
                 </div>
 
@@ -65,17 +111,18 @@ class News extends Component {
               </div>
             </div>
 
+      
             <div className="col-lg-4 col-md-6">
               <div className="single-news">
                 <div className="blog-img">
-                  <Link href="/publications/ischain_soal_jawab_cryptocurrency.pdf">
+                  <Link href="">
                     <a>
-                      <img src="/images/blog/blog2.png" alt="Image" />
+                      <img src="/images/blog/blog8.png" alt="Image" />
                     </a>
                   </Link>
 
                   <div className="dates">
-                    <span>21 February</span>
+                    <span>1 Maret</span>
                   </div>
                 </div>
 
@@ -92,19 +139,17 @@ class News extends Component {
 
                   <Link href="#">
                     <a>
-                      <h3>Soal Jawab Cryptocurrency</h3>
+                      <h3>Mencari Keuntungan Halal dari Crypto</h3>
                     </a>
                   </Link>
 
                   <p className="align-paragraph">
-                    Berisi kumpulan soal jawab tentang beberapa permasalahan
-                    atau keraguan yang sering muncul tentang Cryptocurrency yang
-                    coba dijawab oleh Team Fiqh ISCHAIN
+                    Coming Soon
                   </p>
 
-                  <Link href="/publications/ischain_soal_jawab_cryptocurrency.pdf">
+                  <Link href="">
                     <a className="read-more">
-                      Unduh <i className="bx bx-download"></i>
+                      Coming Soon
                     </a>
                   </Link>
                 </div>
