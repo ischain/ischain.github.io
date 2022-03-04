@@ -71,7 +71,7 @@ class Navbar extends Component {
                                         </Link>
                                     </li>
 
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link href="/">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
                                                 Entitas Bisnis<i className='bx bx-chevron-down'></i>
@@ -97,7 +97,7 @@ class Navbar extends Component {
                                                 </Link>
                                             </li>
                                         </ul>
-                                    </li>
+                                    </li> */}
 
                                     <li className="nav-item">
                                         <Link href="/publikasi">
