@@ -43,13 +43,6 @@ class About extends Component {
                                     </ul>
                                 </div>
                             </div>
-
-                                <Link href="/about-1">
-                                    <a className="default-btn">
-                                        Learn More
-                                    </a>
-                                </Link>
-                            </div>
                         </div>
                     </div>
                 </div>
