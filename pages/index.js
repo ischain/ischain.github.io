@@ -5,7 +5,6 @@ import About from '../components/Home/About'
 import MainBanner from '../components/Home/MainBanner'
 {/*  import Services from '../components/Home/Services' */}
 {/* import WhatWeOffer from '../components/Home/WhatWeOffer' */}
-import WhyChooseUs from '../components/Home/WhyChooseUs'
 import Footer from '../components/Layouts/Footer'
 import Navbar from '../components/Layouts/Navbar'
 import TeamTwo from '../components/Common/TeamTwo'
@@ -16,7 +15,6 @@ const Index = () => {
             <Navbar />
             <MainBanner />
             <About />
-            <WhyChooseUs />
             {/*
             <Services />
             <MakeYourBusiness />
