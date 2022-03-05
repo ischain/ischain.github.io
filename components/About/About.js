@@ -1,8 +1,10 @@
-
 import Link from 'next/link';
+import React, { Component } from 'react';
 
-const About = () => {
-    return (
+class Aboout extends Component {
+
+    render() {
+        return (
         <section className="about-area">
             <div className="container">
                 <div className="row align-items-center">
