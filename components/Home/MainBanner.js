@@ -46,7 +46,7 @@ const MainBanner = () => {
                             <div className="single-features">
                                 <i className="flaticon-artificial-intelligence"></i>
                                 <h3>Edukasi</h3>
-                                <p>Memberikan edukasi menyeluruh terkait blockchain dan aset crypto baik dari sisi syariat, fikih, teknologi, implementasi, hingga manajemen risiko yang dapat memberi kemaslahatan umat secara umum.</p>
+                                <p>Memberikan edukasi menyeluruh terkait teknologi blockchain dan aset crypto baik dari sisi syariat, fikih, teknologi, implementasi, hingga manajemen risiko yang dapat memberikan kemaslahatan kepada umat secara umum.</p>
 
                                 {/* <Link href="/coming-soon">
                                     <a className="read-more-icon">
