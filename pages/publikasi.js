@@ -1,29 +1,18 @@
-import React, { Component } from 'react';
-import PageBanner from '../components/Common/PageBanner';
-import News from '../components/Common/News';   
-import Partner from '../components/Common/Partner';
-import Footer from '../components/Layouts/Footer';
-import Navbar from '../components/Layouts/Navbar';
+/* eslint-disable react/jsx-no-target-blank */
+import React from "react";
 
-class Publikasi extends Component {
-    render() {
-        return (
-            <>
-                <Navbar />
-                <PageBanner 
-                    pageTitle="Riset dan Publikasi" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Publikasi" 
-                /> 
-                <News />
-                <div className="pt-100 pb-50">
-                    <Partner />
-                </div>
-                <Footer />
-            </>
-        );
-    }
+import Header from "components/Headers/Header.js";
+import _Publikasi from "components/Publikasi/_Publikasi.js";
+import Footer from "components/Footers/Footer.js";
+
+export default function Publikasi() {
+  return (
+    <>
+      <Header
+        Judul= "Publikasi"
+        SubJudul= "Publikasi"/>
+      <_Publikasi/>
+      <Footer />
+    </>
+  );
 }
-
-export default Publikasi;

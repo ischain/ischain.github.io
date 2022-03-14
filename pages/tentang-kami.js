@@ -1,29 +1,22 @@
-import React, { Component } from 'react';
-import About from '../components/About/About';
-import WhyChooseUs from '../components/Home/WhyChooseUs'
-import PageBanner from '../components/Common/PageBanner';
-import TeamTwo from '../components/Common/TeamTwo';
-import Footer from '../components/Layouts/Footer';
-import Navbar from '../components/Layouts/Navbar';
+/* eslint-disable react/jsx-no-target-blank */
+import React from "react";
 
-class TentangKami extends Component {
-    render() {
-        return (
-            <>
-                <Navbar />
-                <PageBanner 
-                    pageTitle="Tentang Kami" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="Tentang Kami" 
-                /> 
-                <About />
-                <WhyChooseUs />
-                <TeamTwo />
-                <Footer />
-            </>
-        );
-    }
+import Header from "components/Headers/Header.js";
+import Tentang from "components/TentangKami/Tentang.js";
+import VisiMisi from "components/TentangKami/VisiMisi.js";
+import Tim from "components/Home/Tim.js";
+import Footer from "components/Footers/Footer.js";
+
+export default function TentangKami() {
+  return (
+    <>
+      <Header
+        Judul= "Tentang Kami"
+        SubJudul= "Tentang Kami"/>
+      <Tentang/>
+      <VisiMisi/>
+      <Tim/>
+      <Footer />
+    </>
+  );
 }
-
-export default TentangKami;
