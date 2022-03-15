@@ -1,7 +1,8 @@
 import React from "react";
+import Link from "next/link";
 
-import PublikasiCard from "components/Publikasi/PublikasiCard.js";
-import PublikasiComing from "components/Publikasi/PublikasiComing.js";
+import PublikasiCard from "../Publikasi/PublikasiCard.js";
+import PublikasiComing from "../Publikasi/PublikasiComing.js";
 
 export default function _Publikasi() {
   return (
@@ -75,31 +76,36 @@ export default function _Publikasi() {
             <div className="py-2 mx-auto items-center flex flex-wrap">
                 <ul className="flex pl-0 rounded list-none flex-wrap lg:w-12/12">
                     <li>
-                        <a href="/publikasi" className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-blueGray-700 text-white">
+                      <Link href="/publikasi">
+                        <a className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-blueGray-700 text-white">
                           <i className="fas fa-chevron-left -ml-px"></i>
                           <i className="fas fa-chevron-left -ml-px"></i>
-                        </a>
+                        </a></Link>
                     </li>
                     <li>
-                        <a href="#pablo" className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-white text-blueGray-500">
+                        <Link href="#">
+                        <a className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-white text-blueGray-500">
                           <i className="fas fa-chevron-left -ml-px"></i>
-                        </a>
+                        </a></Link>
                     </li>
                     <li>
-                        <a href="/publikasi#1" className="1 first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-white text-blueGray-500">
+                      <Link href="/publikasi#1">
+                        <a className="1 first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-white text-blueGray-500">
                           1
-                        </a>
+                        </a></Link>
                     </li>
                     <li>
-                          <a href="#pablo" className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-white text-blueGray-500">
+                      <Link href="#"> 
+                          <a className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-white text-blueGray-500">
                           <i className="fas fa-chevron-right -mr-px"></i>
-                          </a>
+                          </a></Link>
                     </li>
                     <li>
-                    <a href="#pablo" className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-blueGray-700 text-white">
+                      <Link href="#">
+                        <a className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-blueGray-700 text-white">
                           <i className="fas fa-chevron-right -mr-px"></i>
                           <i className="fas fa-chevron-right -mr-px"></i>
-                        </a>
+                        </a></Link>
                     </li>
                 </ul>
             </div>

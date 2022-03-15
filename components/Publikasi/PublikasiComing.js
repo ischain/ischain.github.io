@@ -10,10 +10,12 @@ export default function PublikasiComing({
   return (
     <>
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
-                <img
-                  src= {Gambar}
-                  className="w-full align-middle rounded-t-lg"
-                />
+                <div className="w-full align-middle rounded-t-lg">
+                  <img
+                    src= {Gambar}
+                    alt= ""
+                  />
+                </div>
                 <blockquote className="relative p-8 mb-4">
                   <svg
                     preserveAspectRatio="none"

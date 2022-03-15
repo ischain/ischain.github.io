@@ -1,9 +1,10 @@
 import React from "react";
+import Link from 'next/link';
 import PropTypes from "prop-types";
 
 // components
 
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
+import IndexNavbar from "../Navbars/IndexNavbar.js";
 
 export default function Header({
     Judul,
@@ -30,7 +31,7 @@ export default function Header({
                      {Judul}
                   </h1>
                   <p className="mt-4 text-md font-bold text-blueGray-200">
-                     <a className="hover:text-yellow-500 font-normal" href="/">Beranda </a> | {SubJudul}
+                      <Link href="/"><a className="hover:text-yellow-500 font-normal">Beranda</a></Link> | {SubJudul}
                   </p>
                 </div>
               </div>

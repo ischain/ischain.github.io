@@ -1,6 +1,6 @@
 import React from "react";
 
-import ArtikelCard from "components/Artikel/ArtikelCard.js";
+import ArtikelCard from "../Artikel/ArtikelCard.js";
 
 export default function _Artikel() {
   return (

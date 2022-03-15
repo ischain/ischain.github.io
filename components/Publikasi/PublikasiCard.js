@@ -11,10 +11,12 @@ export default function PublikasiCard({
   return (
     <>
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
-                <img
-                  src= {Gambar}
-                  className="w-full align-middle rounded-t-lg"
-                />
+                <div className="w-full align-middle rounded-t-lg"> 
+                  <img
+                    src= {Gambar}
+                    alt = ""
+                  />
+                </div>
                 <blockquote className="relative p-8 mb-4">
                   <svg
                     preserveAspectRatio="none"
@@ -37,7 +39,7 @@ export default function PublikasiCard({
                   </p>
 
                   <div className="mt-4">
-                    <a href= {LinkUnduh} target="_blank">
+                    <a href= {LinkUnduh} target="_blank" rel="noreferrer">
                       <button
                         className="hover:bg-blue-300 bg-blue-500 text-white active:bg-blueGray-700 text-md font-semibold px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 mb-3 ease-linear transition-all duration-150"
                         type="button"

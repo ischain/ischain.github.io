@@ -49,10 +49,12 @@ export default function Publikasi() {
             
             <div className="w-8/12 md:w-5/12 px-4 mr-auto ml-auto mt-32">
               <div className="relative xs:relative sm:relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
-                <img
-                  src="/img/ebook1.png"
-                  className="w-full align-middle rounded-lg absolute shadow-xl max-w-150-px left-40-px -top-225-px z-2"
-                />
+                <div className="w-full align-middle rounded-lg absolute shadow-xl max-w-150-px left-40-px -top-225-px z-2">  
+                  <img
+                    src="/img/ebook1.png"
+                    alt="" 
+                  />
+                </div>
                 <a
                   href="/publication/[ISCHAIN] Soal Jawab Cryptocurrency.pdf" target="_blank"
                   className="align-middle rounded absolute shadow-lg left-145-px -top-60-px z-3"
@@ -66,11 +68,12 @@ export default function Publikasi() {
                     Unduh
                   </button>
                 </a>
-                
-                <img
-                  src="/img/ebook2.png"
-                  className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-260-px -top-160-px"
-                />
+                <div className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-260-px -top-160-px">
+                  <img
+                    src="/img/ebook2.png"
+                    alt=""
+                  />
+                </div>
                 <a
                   href="/publication/[ISCHAIN] 8 Faidah Hukum Bitcoin.pdf" target="_blank"
                   className="align-middle rounded absolute shadow-lg left-145-px -top-60-px z-3"
@@ -84,11 +87,12 @@ export default function Publikasi() {
                     Unduh
                   </button>
                 </a>
-               
-                <img
-                  src="/img/ebook3.png"
-                  className="w-full align-middle rounded-lg absolute shadow-2xl max-w-180-px -left-150-px top-25-px"
-                />
+                <div className="w-full align-middle rounded-lg absolute shadow-2xl max-w-180-px -left-100-px top-25-px">
+                  <img
+                    src="/img/ebook3.png"
+                    alt=""
+                  />
+                </div>
                 <a
                   className="align-middle rounded absolute shadow-lg left-145-px -top-60-px z-3"
                 >

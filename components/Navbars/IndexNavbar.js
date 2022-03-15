@@ -2,8 +2,6 @@ import React from "react";
 import Link from "next/link";
 // components
 
-import EntitasDropdown from "components/Dropdowns/EntitasDropdown.js";
-
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
@@ -13,7 +11,10 @@ export default function Navbar(props) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                 <Link href="/">
                   <a className="navbar-brand">
-                    <img src="/img/ischain-logo-i.png" alt="logo" />
+                    <img
+                      src= "/img/ischain-logo-i.png" 
+                      alt= "logo" 
+                    />
                   </a>
                 </Link>
             <button
@@ -33,22 +34,22 @@ export default function Navbar(props) {
           >
             <ul className="flex flex-col lg:flex-row list-none mr-auto">
               <li className="flex items-center">
+                <Link href="/publikasi">
                 <a
                   className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/publikasi"
                 >
-                  <i className="hover:text-blue-500 text-blueGray-400 far fa-file-alt text-lg leading-lg xs:ml-0 sm:ml-3 mr-2"></i>
+                  <i className="hover:text-blue-500 text-blueGray-400 far fa-file-alt text-lg leading-lg xs:ml-0 lg:ml-3 mr-2"></i>
                   Publikasi
-                </a>
+                </a></Link>
               </li>
               <li className="flex items-center">
-                <a
+                <Link href="/artikel">
+                <a 
                   className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/artikel"
                 >
                   <i className="hover:text-blue-500 text-blueGray-400 far fa-newspaper text-lg leading-lg mr-2"></i>
                   Artikel
-                </a>
+                </a></Link>
               </li>
             </ul>
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
@@ -58,37 +59,38 @@ export default function Navbar(props) {
 
               </li>
               <li className="flex items-center">
+                <Link href="/tentang-kami">
                 <a
                   className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/tentang-kami"
                 >
                   <span>Tentang Kami</span>
-                </a>
+                </a></Link>
               </li>
 
               <li className="flex items-center">
+                <Link href="/faq">
                 <a
                   className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/faq"
                 >
                   <span>FAQ</span>
-                </a>
+                </a></Link>
               </li>
 
               <li className="flex items-center">
+                <Link href="/kontak">
                 <a
                   className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  href="/kontak"
+                  
                 >
                   <span>Hubungi Kami</span>
-                </a>
+                </a></Link>
               </li>
 
               <li className="flex items-center">
                 <a
                   className="hover:text-red-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://instagram.com/ischain.id"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <i className="hover:text-red-500 text-blueGray-400 fab fa-instagram text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Instagram</span>
@@ -99,7 +101,7 @@ export default function Navbar(props) {
                 <a
                   className="hover:text-lightBlue-600 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://t.me/ischainlounge"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <i className="hover:text-lightBlue-600 text-blueGray-400 fab fa-telegram text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Telegram</span>

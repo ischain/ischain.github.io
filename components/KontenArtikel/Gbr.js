@@ -6,10 +6,12 @@ export default function Gbr({
 }) {
   return (
     <>
-        <img
+        <div className="w-auto align-middle rounded-t-lg">
+          <img
             src = {Gambarx}
-            className="w-auto align-middle rounded-t-lg"
-        />
+            alt = ""
+          />
+        </div>
     </>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -31,38 +32,42 @@ export default function Footer() {
                 Dapatkan update informasi terbaru dari ISCHAIN di:
               </h5>
               <div className="mt-6 lg:mb-0 mb-6">
-                <a href="https://t.me/ischainlounge" target="_blank">
+                <Link href="https://t.me/ischainlounge" target="_blank" rel="noreferrer">
+                <a>
                   <button 
                   className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                   >
                   <i className="fab fa-telegram"></i>
                   </button>
-                </a>
-                <a href="https://chat.whatsapp.com/CqaHz7oTJ8W1BS1yPsTWZi" target="_blank">
+                </a></Link>
+                <Link href="https://chat.whatsapp.com/CqaHz7oTJ8W1BS1yPsTWZi" target="_blank" rel="noreferrer">
+                <a>
                   <button
                   className="bg-white text-green-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                   >
                   <i className="fab fa-whatsapp-square"></i>
                   </button>
-                </a>
-                <a href="https://instagram.com/ischain.id" target="_blank">
+                </a></Link>
+                <Link href="https://instagram.com/ischain.id" target="_blank" rel="noreferrer">
+                <a>
                   <button 
                   className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                   >
                   <i className="fab fa-instagram"></i>
                   </button>
-                </a>
-                <a href="mailto:ischain.id@gmail.com" target="_blank">
+                </a></Link>
+                <Link href="mailto:ischain.id@gmail.com" target="_blank" rel="noreferrer">
+                <a>
                   <button
                   className="bg-white text-blue-500 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                   >
                   <i className="fa fa-envelope"></i>
                   </button>
-                </a>
+                </a></Link>
               </div>
             </div>
             <div className="w-full lg:w-6/12 px-4">
@@ -73,28 +78,28 @@ export default function Footer() {
                   </span>
                   <ul className="list-unstyled">
                     <li>
+                    <Link href="/faq">
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/faq"
                       >
                         FAQ
-                      </a>
+                      </a></Link>
                     </li>
                     <li>
+                    <Link href="/publikasi">
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/publikasi"
                       >
                         Publikasi
-                      </a>
+                      </a></Link>
                     </li>
                     <li>
+                    <Link href="/artikel">
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/artikel"
                       >
                         Artikel
-                      </a>
+                      </a></Link>
                     </li>
                   </ul>
                 </div>
@@ -104,20 +109,20 @@ export default function Footer() {
                   </span>
                   <ul className="list-unstyled">
                     <li>
+                    <Link href="/tentang-kami">
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/tentang-kami"
                       >
                         Tentang Kami
-                      </a>
+                      </a></Link>
                     </li>
                     <li>
+                    <Link href="/kontak">
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/kontak"
                       >
                         Hubungi Kami
-                      </a>
+                      </a></Link>
                     </li>
                   </ul>
                 </div>
@@ -129,12 +134,11 @@ export default function Footer() {
             <div className="w-full md:w-3/12 px-4 mx-auto text-center">
               <div className="text-sm text-blueGray-500 font-semibold py-1">
                 Copyright © {new Date().getFullYear()}.{" "}
-                <a
-                  href="https://ischain.id"
+                <Link href="https://ischain.id"><a
                   className="text-blue-500 hover:text-blueGray-800"
                 >
                   ISCHAIN Teknologi Indonesia
-                </a>
+                </a></Link>
                 .
               </div>
             </div>
