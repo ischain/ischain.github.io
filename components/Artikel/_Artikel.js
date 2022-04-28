@@ -35,6 +35,18 @@ export default function _Artikel() {
             <div className="w-full lg:w-12/12 px-4  -mt-32">
               <div className="flex flex-wrap">
 
+            {/* Start Input Artikel Card 4*/}
+            <div className="w-full lg:w-4/12 px-4">
+              <ArtikelCard
+                Gambar = "/img/artikel/04.png"
+                Tanggal = "20 April 2022"
+                JudulArtikel = "Halalnya Jual Beli, Serta Syarat dan Rukunnya"
+                Deskripsi = "Manusia sejak zaman dahulu kala pasti tidak lepas dari aktivitas jual-beli. Manusia memenuhi kebutuhan-kebutuhannya melalui aktivitas jual-beli."
+                LinkArtikel = "/artikel/syarat-rukun-jual-beli"
+              />
+            </div>
+            {/* End Input Artikel Card */}
+
             {/* Start Input Artikel Card 3*/}
             <div className="w-full lg:w-4/12 px-4">
               <ArtikelCard

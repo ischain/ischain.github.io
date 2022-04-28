@@ -512,6 +512,11 @@ select {
   width: 100%;
 }
 
+.container h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
