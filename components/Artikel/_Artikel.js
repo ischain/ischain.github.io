@@ -35,11 +35,59 @@ export default function _Artikel() {
             <div className="w-full lg:w-12/12 px-4  -mt-32">
               <div className="flex flex-wrap">
 
-            {/* Start Input Artikel Card 4*/}
+            {/* Start Input Artikel Card 8*/}
+            <div className="w-full lg:w-4/12 px-4">
+              <ArtikelCard
+                Gambar = "/img/artikel/04.png"
+                Tanggal = "30 April 2022"
+                JudulArtikel = "Pinjam Motor, Isi Bensin, Ribakah?"
+                Deskripsi = "Ada kerancuan yang tersebar di masyarakat terkait dengan riba. Riba yang jelas-jelas merupakan dosa besar dan disepakati haramnya oleh para ulama, ingin dikesankan hal yang boleh dan lumrah dengan syubhat ini."
+                LinkArtikel = "/artikel/pinjam-motor-isi-bensin-ribakah"
+              />
+            </div>
+            {/* End Input Artikel Card */}
+
+            {/* Start Input Artikel Card 7*/}
+            <div className="w-full lg:w-4/12 px-4">
+              <ArtikelCard
+                Gambar = "/img/artikel/04.png"
+                Tanggal = "25 April 2022"
+                JudulArtikel = "Apa Itu NFT?"
+                Deskripsi = "Beberapa waktu lalu netizen dihebohkan dengan fenomena adanya warga Indonesia bernama Ghozali yang berhasil menjual foto dirinya sebagai NFT dengan nilai milyaran rupiah."
+                LinkArtikel = "/artikel/apa-itu-nft"
+              />
+            </div>
+            {/* End Input Artikel Card */}
+
+            {/* Start Input Artikel Card 6*/}
             <div className="w-full lg:w-4/12 px-4">
               <ArtikelCard
                 Gambar = "/img/artikel/04.png"
                 Tanggal = "20 April 2022"
+                JudulArtikel = "Pendapat Syaikh Muhammad Hisyam Thahiri Tentang Trading Kripto"
+                Deskripsi = "Dalam suatu sesi tanya jawab ringkas Syaikh Dr. Muhammad Hisyam Thahiri menjelaskan pendapat beliau tentang trading kripto."
+                LinkArtikel = "/artikel/pendapat-muhammad-hisyan-thahiri-tentang-trading-kripto"
+              />
+            </div>
+            {/* End Input Artikel Card */}
+
+            {/* Start Input Artikel Card 5*/}
+            <div className="w-full lg:w-4/12 px-4">
+              <ArtikelCard
+                Gambar = "/img/artikel/04.png"
+                Tanggal = "15 April 2022"
+                JudulArtikel = "Bedakan Qardhun Dengan Daynun"
+                Deskripsi = "Kedua hal di atas, dalam bahasa Indonesia, biasanya diterjemahkan menjadi: hutang. Ini sebenarnya tidak keliru. Namun perlu diketahui bahwa ada perbedaan mendasar antara qardhun dan daynun."
+                LinkArtikel = "/artikel/bedakan-qardhun-dengan-daynun"
+              />
+            </div>
+            {/* End Input Artikel Card */}
+
+            {/* Start Input Artikel Card 4*/}
+            <div className="w-full lg:w-4/12 px-4">
+              <ArtikelCard
+                Gambar = "/img/artikel/04.png"
+                Tanggal = "10 April 2022"
                 JudulArtikel = "Halalnya Jual Beli, Serta Syarat dan Rukunnya"
                 Deskripsi = "Manusia sejak zaman dahulu kala pasti tidak lepas dari aktivitas jual-beli. Manusia memenuhi kebutuhan-kebutuhannya melalui aktivitas jual-beli."
                 LinkArtikel = "/artikel/syarat-rukun-jual-beli"

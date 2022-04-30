@@ -11,7 +11,7 @@ export default function tempKontenArtikel() {
     <>
       <HeaderArtikel
         Judul= "Halalnya Jual Beli, Serta Syarat dan Rukunnya" 
-        Tanggal= "20 April 2022"
+        Tanggal= "10 April 2022"
         Author= "Yulian Purnama"
       />
 
