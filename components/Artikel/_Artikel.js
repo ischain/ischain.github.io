@@ -38,7 +38,7 @@ export default function _Artikel() {
             {/* Start Input Artikel Card 8*/}
             <div className="w-full lg:w-4/12 px-4">
               <ArtikelCard
-                Gambar = "/img/artikel/04.png"
+                Gambar = "/img/artikel/08.png"
                 Tanggal = "30 April 2022"
                 JudulArtikel = "Pinjam Motor, Isi Bensin, Ribakah?"
                 Deskripsi = "Ada kerancuan yang tersebar di masyarakat terkait dengan riba. Riba yang jelas-jelas merupakan dosa besar dan disepakati haramnya oleh para ulama, ingin dikesankan hal yang boleh dan lumrah dengan syubhat ini."
@@ -50,7 +50,7 @@ export default function _Artikel() {
             {/* Start Input Artikel Card 7*/}
             <div className="w-full lg:w-4/12 px-4">
               <ArtikelCard
-                Gambar = "/img/artikel/04.png"
+                Gambar = "/img/artikel/07.png"
                 Tanggal = "25 April 2022"
                 JudulArtikel = "Apa Itu NFT?"
                 Deskripsi = "Beberapa waktu lalu netizen dihebohkan dengan fenomena adanya warga Indonesia bernama Ghozali yang berhasil menjual foto dirinya sebagai NFT dengan nilai milyaran rupiah."
@@ -62,7 +62,7 @@ export default function _Artikel() {
             {/* Start Input Artikel Card 6*/}
             <div className="w-full lg:w-4/12 px-4">
               <ArtikelCard
-                Gambar = "/img/artikel/04.png"
+                Gambar = "/img/artikel/06.png"
                 Tanggal = "20 April 2022"
                 JudulArtikel = "Pendapat Syaikh Muhammad Hisyam Thahiri Tentang Trading Kripto"
                 Deskripsi = "Dalam suatu sesi tanya jawab ringkas Syaikh Dr. Muhammad Hisyam Thahiri menjelaskan pendapat beliau tentang trading kripto."
@@ -74,7 +74,7 @@ export default function _Artikel() {
             {/* Start Input Artikel Card 5*/}
             <div className="w-full lg:w-4/12 px-4">
               <ArtikelCard
-                Gambar = "/img/artikel/04.png"
+                Gambar = "/img/artikel/05.png"
                 Tanggal = "15 April 2022"
                 JudulArtikel = "Bedakan Qardhun Dengan Daynun"
                 Deskripsi = "Kedua hal di atas, dalam bahasa Indonesia, biasanya diterjemahkan menjadi: hutang. Ini sebenarnya tidak keliru. Namun perlu diketahui bahwa ada perbedaan mendasar antara qardhun dan daynun."

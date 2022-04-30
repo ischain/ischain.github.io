@@ -45,7 +45,7 @@ q     <div className="container mx-auto px-4 pb-2">
                 
                 <div className="py-6 px-3 sm:mt-0">
                   <Gbr
-                     Gambarx = "/img/artikel/04.png"
+                     Gambarx = "/img/artikel/08.png"
                   />
                 </div>
               </div>
