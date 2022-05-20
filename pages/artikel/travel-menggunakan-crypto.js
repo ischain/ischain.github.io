@@ -54,9 +54,9 @@ q     <div className="container mx-auto px-4 pb-2">
                   <Paragraf
                      Kalimat = "Dan jangan salah, ternyata adopsi itu sudah terlihat masif di dunia travelling, paling tidak ada 2 aplikasi yang bisa sobat ischain pakai sekarang juga, baik beli tiket pesawat, ataupun book hotel dengan aset kripto. Apa itu ?"
                   />
-                  <ol class="list-decimal list-outside text-lg px-4 text-lg leading-relaxed text-slate-800">
-                    <li class="px-3"><Paragraf Kalimat="Travala, " Link ="https://travala.com" Kalimat1="(seperti Traveloka)"/></li>
-                    <li class="px-3"><Paragraf Kalimat="Dtravel " Link="https://app.dtravel.com" Kalimat1="(mirip AirBnB)"/></li>
+                  <ol className="list-decimal list-outside text-lg px-4 text-lg leading-relaxed text-slate-800">
+                    <li className="px-3"><Paragraf Kalimat="Travala, " Link ="https://travala.com" Kalimat1="(seperti Traveloka)"/></li>
+                    <li className="px-3"><Paragraf Kalimat="Dtravel " Link="https://app.dtravel.com" Kalimat1="(mirip AirBnB)"/></li>
                   </ol>
                   <Paragraf
                      Kalimat = "Kami tidak akan review detail kedua platform tersebut, ini sebagai info kepada sobat ISCHAIN bahwa inilah salah satu adopsi penggunaan aset kripto. Yang bisa digunakan pun beragam, mulai dari BTC, ETH, dan altcoin lain. Dan standar harga menggunakan USD. Mau travel ke Jakarta, Surabaya, Bali ? Bisa. Lalu mungkin ada pertanyaan, jadi ini menunjukkan di Indonesia sudah diperbolehkan menggunakan kripto aset sebagai alat pembayaran? Tidak, kedua platform tsb masuk ke dalam kategori agen travel internasional, pembayaran mereka ke maskapai dan hotel masih menggunakan fiat. Wallahua'lam"

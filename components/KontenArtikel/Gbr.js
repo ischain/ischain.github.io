@@ -1,4 +1,4 @@
-import React from "react";
+import Image from 'next/image';
 import PropTypes from "prop-types";
 
 export default function Gbr({
@@ -7,7 +7,7 @@ export default function Gbr({
   return (
     <>
         <div className="w-auto align-middle rounded-t-lg">
-          <img
+          <Image unoptimized
             src = {Gambarx}
             alt = ""
           />

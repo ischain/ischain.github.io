@@ -1,3 +1,4 @@
+import Image from 'next/image';
 
 export default function Publikasi() {
   return (
@@ -49,7 +50,8 @@ export default function Publikasi() {
             <div className="w-8/12 md:w-5/12 px-4 mr-auto ml-auto mt-32">
               <div className="relative xs:relative sm:relative flex flex-col min-w-0 w-full mb-6 mt-48 md:mt-0">
                 <div className="w-full align-middle rounded-lg absolute shadow-xl max-w-150-px left-40-px -top-225-px z-2">  
-                  <img
+                  <Image
+                    unoptimized
                     src="/img/ebook1.png"
                     alt="" 
                   />
@@ -68,7 +70,7 @@ export default function Publikasi() {
                   </button>
                 </a>
                 <div className="w-full align-middle rounded-lg absolute shadow-lg max-w-180-px left-260-px -top-160-px">
-                  <img
+                  <Image unoptimized
                     src="/img/ebook2.png"
                     alt=""
                   />
@@ -87,7 +89,7 @@ export default function Publikasi() {
                   </button>
                 </a>
                 <div className="w-full align-middle rounded-lg absolute shadow-2xl max-w-180-px -left-100-px top-25-px">
-                  <img
+                  <Image unoptimized
                     src="/img/ebook3.png"
                     alt=""
                   />

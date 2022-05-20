@@ -99,6 +99,7 @@ export default function _Publikasi() {
                                                     <a className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-slate-500 bg-white text-slate-500">
                                                         <i className="fas fa-chevron-right -mr-px"></i>
                                                     </a></Link>
+                                            </a>
                                         </li>
                                         <li>
                                             <Link href="#">

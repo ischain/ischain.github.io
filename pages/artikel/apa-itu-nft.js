@@ -35,7 +35,7 @@ export default function tempKontenArtikel() {
           </svg>
         </div>
 
-q     <div className="container mx-auto px-4 pb-2">
+       <div className="container mx-auto px-4 pb-2">
         <div className="relative flex flex-wrap z-10 min-w-0 bg-white w-full mb-6 shadow-xl rounded-lg -mt-48">
           <div className="px-6">
             <div className="flex flex-wrap justify-center">
@@ -99,7 +99,7 @@ q     <div className="container mx-auto px-4 pb-2">
                      Mudah-mudahan dalam waktu dekat ada sebagian ulama yang menelaah lebih lanjut masalah ini.
                   </p>
                   <p className="mb-4 text-lg leading-relaxed text-slate-800">
-                     <em>Wallahu a'lam</em>
+                    <em>Wallahu a'lam</em>
                   </p>
               </div>
             </div>

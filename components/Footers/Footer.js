@@ -111,7 +111,6 @@ export default function Footer() {
                     <Link href="/tentang-kami">
                       <a
                         className="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                        className="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
                       >
                         Tentang Kami
                       </a></Link>
@@ -119,7 +118,6 @@ export default function Footer() {
                     <li>
                     <Link href="/kontak">
                       <a
-                        className="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         className="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
                       >
                         Hubungi Kami

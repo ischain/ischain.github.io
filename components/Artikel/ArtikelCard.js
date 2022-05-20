@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import PropTypes from "prop-types";
 
 export default function ArtikelCard({
@@ -10,9 +11,11 @@ export default function ArtikelCard({
   return (
     <>
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
-                <img
+              <Image
+                  unoptimized
                   src= {Gambar}
                   className="w-full align-middle rounded-t-lg"
+                  alt='...'
                 />
                 <blockquote className="relative p-8 mb-4">
                   <svg

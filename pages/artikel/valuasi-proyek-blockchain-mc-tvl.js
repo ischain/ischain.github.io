@@ -62,14 +62,14 @@ q     <div className="container mx-auto px-4 pb-2">
                   <Paragraf
                      Kalimat = "Stepnya bagaimana? Misal kita mau cek proyek blockchain ya..."
                   />
-                  <ol class="list-decimal list-outside text-lg px-4 text-lg leading-relaxed text-slate-800">
-                    <li class="px-3"><Paragraf Kalimat="Buka " Link ="https://defillama.com/chains"/></li>
-                    <li class="px-3"><Paragraf Kalimat="Pastikan urutan TVL dari tertinggi ke terendah"/></li>
-                    <li class="px-3"><Paragraf Kalimat="Cek kolom paling kanan (MCap/TVL), itulah rasio MC terhadap TVL"/></li>
-                    <li class="px-3"><Paragraf Kalimat="Supaya lebih fair, mungkin bs dikelompokkan sendiri...misal dari 10 besar terlebih dahulu"/></li>
-                    <li class="px-3"><Paragraf Kalimat="Dari 10 besar TVL, mana yg dibawah 1 atau dibawah 2 misalnya."/></li>
-                    <li class="px-3"><Paragraf Kalimat="Maka kita dapatkan calon proyek pilihan, kalo per hari ini (3/10/2021) yaitu : Waves, Fantom, Terra dan Polygon (untuk MC/TVL dibawah 2 diantara Top 10 TVL)"/></li>
-                    <li class="px-3"><Paragraf Kalimat="Selanjutnya tetep perlu diriset sendiri calon proyek tsb, cek whitepaper/doc, bagaimana proyeknya, timnya, komunitasnya, use casenya, dan tokenomicnya."/></li>
+                  <ol className="list-decimal list-outside text-lg px-4 text-lg leading-relaxed text-slate-800">
+                    <li className="px-3"><Paragraf Kalimat="Buka " Link ="https://defillama.com/chains"/></li>
+                    <li className="px-3"><Paragraf Kalimat="Pastikan urutan TVL dari tertinggi ke terendah"/></li>
+                    <li className="px-3"><Paragraf Kalimat="Cek kolom paling kanan (MCap/TVL), itulah rasio MC terhadap TVL"/></li>
+                    <li className="px-3"><Paragraf Kalimat="Supaya lebih fair, mungkin bs dikelompokkan sendiri...misal dari 10 besar terlebih dahulu"/></li>
+                    <li className="px-3"><Paragraf Kalimat="Dari 10 besar TVL, mana yg dibawah 1 atau dibawah 2 misalnya."/></li>
+                    <li className="px-3"><Paragraf Kalimat="Maka kita dapatkan calon proyek pilihan, kalo per hari ini (3/10/2021) yaitu : Waves, Fantom, Terra dan Polygon (untuk MC/TVL dibawah 2 diantara Top 10 TVL)"/></li>
+                    <li className="px-3"><Paragraf Kalimat="Selanjutnya tetep perlu diriset sendiri calon proyek tsb, cek whitepaper/doc, bagaimana proyeknya, timnya, komunitasnya, use casenya, dan tokenomicnya."/></li>
                   </ol>
                   <Paragraf
                      Kalimat = "Dengan cara yang sama bisa kita filter untuk protokol lain, silahkan diulik di defillama. Bisa juga difilter Top 20, Top 100...dst. Misal untuk Dexes yang masih rendah MC/TVL nya untuk Top 10 TVL yaitu Saber, Curve, Balancer...dst"

@@ -7,4 +7,5 @@ module.exports = {
     },
     assetPrefix: isProd ? "/" : "",
     trailingSlash: true,
+    images: { loader: "custom" },
 }

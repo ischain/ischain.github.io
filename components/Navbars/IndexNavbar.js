@@ -1,6 +1,6 @@
+import Image from 'next/image';
 import Link from "next/link";
 import React from "react";
-// components
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -11,7 +11,7 @@ export default function Navbar(props) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                 <Link href="/">
                   <a className="navbar-brand">
-                    <img
+                    <Image unoptimized
                       src= "/img/ischain-logo-i.png" 
                       alt= "logo" 
                     />

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import PropTypes from "prop-types";
 
 export default function PublikasiComing({
@@ -10,7 +11,7 @@ export default function PublikasiComing({
     <>
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                 <div className="w-full align-middle rounded-t-lg">
-                  <img
+                  <Image unoptimized
                     src= {Gambar}
                     alt= ""
                   />
