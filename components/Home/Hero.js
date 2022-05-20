@@ -37,6 +37,8 @@ export default function Hero() {
           unoptimized
           src="/img/hero.png"
           alt="..."
+          width={1000}
+          height={1000}
         />
         </div>
       </section>

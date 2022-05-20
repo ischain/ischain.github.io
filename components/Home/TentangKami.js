@@ -33,6 +33,7 @@ export default function TentangKami() {
                   <Image unoptimized
                     alt="..."
                     src="/img/tentang.png"
+                    layout="fill"
                   />
                 </div>
                 <blockquote className="relative p-8 mb-4">

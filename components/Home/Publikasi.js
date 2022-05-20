@@ -54,6 +54,7 @@ export default function Publikasi() {
                     unoptimized
                     src="/img/ebook1.png"
                     alt="" 
+                    layout="fill"
                   />
                 </div>
                 <a
@@ -73,6 +74,7 @@ export default function Publikasi() {
                   <Image unoptimized
                     src="/img/ebook2.png"
                     alt=""
+                    layout="fill"
                   />
                 </div>
                 <a
@@ -92,6 +94,7 @@ export default function Publikasi() {
                   <Image unoptimized
                     src="/img/ebook3.png"
                     alt=""
+                    layout="fill"
                   />
                 </div>
                 <a
