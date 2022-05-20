@@ -1,6 +1,6 @@
-import React from "react";
+import Image from 'next/image';
 import Link from "next/link";
-// components
+import React from "react";
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -11,7 +11,7 @@ export default function Navbar(props) {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                 <Link href="/">
                   <a className="navbar-brand">
-                    <img
+                    <Image unoptimized
                       src= "/img/ischain-logo-i.png" 
                       alt= "logo" 
                     />
@@ -36,18 +36,18 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <Link href="/publikasi">
                 <a
-                  className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-blue-500 text-slate-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 >
-                  <i className="hover:text-blue-500 text-blueGray-400 far fa-file-alt text-lg leading-lg xs:ml-0 lg:ml-3 mr-2"></i>
+                  <i className="hover:text-blue-500 text-slate-400 far fa-file-alt text-lg leading-lg xs:ml-0 lg:ml-3 mr-2"></i>
                   Publikasi
                 </a></Link>
               </li>
               <li className="flex items-center">
                 <Link href="/artikel">
                 <a 
-                  className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-blue-500 text-slate-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 >
-                  <i className="hover:text-blue-500 text-blueGray-400 far fa-newspaper text-lg leading-lg mr-2"></i>
+                  <i className="hover:text-blue-500 text-slate-400 far fa-newspaper text-lg leading-lg mr-2"></i>
                   Artikel
                 </a></Link>
               </li>
@@ -61,7 +61,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <Link href="/tentang-kami">
                 <a
-                  className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-blue-500 text-slate-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 >
                   <span>Tentang Kami</span>
                 </a></Link>
@@ -70,7 +70,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <Link href="/faq">
                 <a
-                  className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-blue-500 text-slate-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 >
                   <span>FAQ</span>
                 </a></Link>
@@ -79,8 +79,7 @@ export default function Navbar(props) {
               <li className="flex items-center">
                 <Link href="/kontak">
                 <a
-                  className="hover:text-blue-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                  
+                  className="hover:text-blue-500 text-slate-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 >
                   <span>Hubungi Kami</span>
                 </a></Link>
@@ -88,29 +87,29 @@ export default function Navbar(props) {
 
               <li className="flex items-center">
                 <a
-                  className="hover:text-red-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-red-500 text-slate-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://instagram.com/ischain.id"
                   target="_blank" rel="noreferrer"
                 >
-                  <i className="hover:text-red-500 text-blueGray-400 fab fa-instagram text-lg leading-lg " />
+                  <i className="hover:text-red-500 text-slate-400 fab fa-instagram text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Instagram</span>
                 </a>
               </li>
 
               <li className="flex items-center">
                 <a
-                  className="hover:text-lightBlue-600 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="hover:text-sky-600 text-slate-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://t.me/ischainlounge"
                   target="_blank" rel="noreferrer"
                 >
-                  <i className="hover:text-lightBlue-600 text-blueGray-400 fab fa-telegram text-lg leading-lg " />
+                  <i className="hover:text-sky-600 text-slate-400 fab fa-telegram text-lg leading-lg " />
                   <span className="lg:hidden inline-block ml-2">Telegram</span>
                 </a>
               </li>
 
               {/* <li className="flex items-center">
                 <button
-                  className="bg-blueGray-700 text-white active:bg-blueGray-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
+                  className="bg-slate-700 text-white active:bg-slate-600 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150"
                   type="button"
                 >
                   <i className="fas fa-arrow-alt-circle-down"></i> Download

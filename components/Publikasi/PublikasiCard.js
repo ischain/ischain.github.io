@@ -1,4 +1,4 @@
-import React from "react";
+import Image from 'next/image';
 import PropTypes from "prop-types";
 
 export default function PublikasiCard({
@@ -10,9 +10,9 @@ export default function PublikasiCard({
 }) {
   return (
     <>
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                 <div className="w-full align-middle rounded-t-lg"> 
-                  <img
+                  <Image unoptimized
                     src= {Gambar}
                     alt = ""
                   />
@@ -26,7 +26,7 @@ export default function PublikasiCard({
                   >
                     <polygon
                       points="-30,95 583,95 583,65"
-                      className="text-blueGray-700 fill-current"
+                      className="text-slate-700 fill-current"
                     ></polygon>
                   </svg>
 
@@ -41,7 +41,7 @@ export default function PublikasiCard({
                   <div className="mt-4">
                     <a href= {LinkUnduh} target="_blank" rel="noreferrer">
                       <button
-                        className="hover:bg-blue-300 bg-blue-500 text-white active:bg-blueGray-700 text-md font-semibold px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 mb-3 ease-linear transition-all duration-150"
+                        className="hover:bg-blue-300 bg-blue-500 text-white active:bg-slate-700 text-md font-semibold px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 mb-3 ease-linear transition-all duration-150"
                         type="button"
                       >
                         <i className="fa fa-download"></i> Unduh

@@ -1,4 +1,3 @@
-import React from "react";
 import Link from 'next/link';
 import PropTypes from "prop-types";
 
@@ -31,7 +30,7 @@ export default function HeaderArtikel({
                   <h1 className="text-white font-semibold text-4xl">
                      {Judul}
                   </h1>
-                  <p className="mt-5 text-md font-normal text-blueGray-200">
+                  <p className="mt-5 text-md font-normal text-slate-200">
                        <Link href="/artikel"><a className="hover:text-yellow-500 font-normal">Kembali ke Artikel</a></Link> | <i className="fa fa-calendar ml-2 mr-2"/> {Tanggal} | <i className="fa fa-user ml-2 mr-2"/> {Author}
                   </p>
                 </div>
@@ -52,7 +51,7 @@ export default function HeaderArtikel({
               y="0"
             >
               <polygon
-                className="text-blueGray-100 fill-current"
+                className="text-slate-100 fill-current"
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>

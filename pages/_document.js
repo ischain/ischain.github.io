@@ -1,5 +1,4 @@
-import React from "react";
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Head, Html, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   render() {
@@ -15,7 +14,7 @@ class MyDocument extends Document {
             href="/img/brand/favicon.png"
           />
         </Head>
-        <body className="text-blueGray-700 antialiased">
+        <body className="text-slate-700 antialiased">
           <div id="page-transition"></div>
           <Main />
           <NextScript />

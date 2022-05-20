@@ -1,6 +1,6 @@
-import React from "react";
-import Link from "next/link";
 import { createPopper } from "@popperjs/core";
+import Link from "next/link";
+import React from "react";
 
 const EntitasDropdown = () => {
   // dropdown props
@@ -20,7 +20,7 @@ const EntitasDropdown = () => {
   return (
     <>
       <a
-        className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+        className="hover:text-slate-500 text-slate-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
         href="#"
         ref={btnDropdownRef}
         onClick={(e) => {
@@ -39,7 +39,7 @@ const EntitasDropdown = () => {
       >
         <span
           className={
-            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
+            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-slate-400"
           }
         >
           ISCHAIN Academy
@@ -48,7 +48,7 @@ const EntitasDropdown = () => {
           <a
             href="#pablo"
             className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700"
             }
           >
             Silabus
@@ -58,17 +58,17 @@ const EntitasDropdown = () => {
           <a
             href="#pablo"
             className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700"
             }
           >
             Daftar
           </a>
         </Link>
         
-        <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
+        <div className="h-0 mx-4 my-2 border border-solid border-slate-100" />
         <span
           className={
-            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
+            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-slate-400"
           }
         >
           ISCHAIN Solution
@@ -77,7 +77,7 @@ const EntitasDropdown = () => {
           <a
             href="#pablo"
             className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700"
             }
           >
             Layanan
@@ -87,16 +87,16 @@ const EntitasDropdown = () => {
           <a
             href="#pablo"
             className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700"
             }
           >
             Daftar
           </a>
         </Link>
-        <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
+        <div className="h-0 mx-4 my-2 border border-solid border-slate-100" />
         <span
           className={
-            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
+            "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-slate-400"
           }
         >
           ISCHAIN DAO
@@ -105,7 +105,7 @@ const EntitasDropdown = () => {
           <a
             href="#pablo"
             className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700"
             }
           >
             Tata Kelola
@@ -115,7 +115,7 @@ const EntitasDropdown = () => {
           <a
             href="#pablo"
             className={
-              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+              "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-slate-700"
             }
           >
             Vote
