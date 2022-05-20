@@ -1,6 +1,6 @@
-import Advisor from "components/Tim/Advisor.js";
-import Board from "components/Tim/Board";
-import Specialist from "components/Tim/Specialist";
+import Advisor from "../Tim/Advisor.js";
+import Board from "../Tim/Board";
+import Specialist from "../Tim/Specialist";
 
 export default function Tim() {
   return (

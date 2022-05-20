@@ -28,9 +28,10 @@ export default function ArtikelCard({
                   </svg>
 
                   <span className="text-sm font-normal text-white"> <i className="fa fa-calendar"></i> {Tanggal} </span>
-                  <h4 className="text-xl font-bold text-white">
+                  <a href= {LinkArtikel}><h4 className="text-xl font-bold text-white">
                     {JudulArtikel}
                   </h4>
+                  </a>
                   <p className="text-md font-normal mt-2 text-white">
                   {Deskripsi}
                   </p>

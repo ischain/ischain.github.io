@@ -1,13 +1,13 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 
-import Hero from "components/Home/Hero.js";
-import TentangKami from "components/Home/TentangKami.js";
-import Publikasi from "components/Home/Publikasi.js";
-import Tim from "components/Home/Tim.js";
-import Footer from "components/Footers/Footer.js";
+import Hero from "../components/Home/Hero";
+import TentangKami from "../components/Home/TentangKami";
+import Publikasi from "../components/Home/Publikasi";
+import Tim from "../components/Home/Tim";
+import Footer from "../components/Footers/Footer";
 
-export default function Index() {
+const Index = () => {
   return (
     <>
       <Hero/>
@@ -18,3 +18,5 @@ export default function Index() {
     </>
   );
 }
+
+export default Index

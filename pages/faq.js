@@ -1,8 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
-
-import Footer from "components/Footers/Footer.js";
-import Header from "components/Headers/Header.js";
-import CardFAQ from "components/Tabel/CardFAQ.js";
+import Footer from "../components/Footers/Footer.js";
+import Header from "../components/Headers/Header.js";
+import CardFAQ from "../components/Tabel/CardFAQ.js";
 
 export default function FAQ() {
   return (

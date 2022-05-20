@@ -1,8 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
-
-import Footer from "components/Footers/Footer.js";
-import Header from "components/Headers/Header.js";
-import CardKontak from "components/Tabel/CardKontak.js";
+import Footer from "../components/Footers/Footer.js";
+import Header from "../components/Headers/Header.js";
+import CardKontak from "../components/Tabel/CardKontak.js";
 
 export default function Kontak() {
   return (

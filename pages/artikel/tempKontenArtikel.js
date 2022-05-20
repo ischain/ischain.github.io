@@ -1,10 +1,10 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
 
-import HeaderArtikel from "components/Headers/HeaderArtikel.js";
-import Gbr from "components/KontenArtikel/Gbr.js";
-import Paragraf from "components/KontenArtikel/Paragraf.js";
-import Footer from "components/Footers/Footer.js";
+import HeaderArtikel from "/components/Headers/HeaderArtikel.js";
+import Gbr from "/components/KontenArtikel/Gbr.js";
+import Paragraf from "/components/KontenArtikel/Paragraf.js";
+import Footer from "/components/Footers/Footer.js";
 
 export default function tempKontenArtikel() {
   return (

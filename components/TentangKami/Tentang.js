@@ -28,11 +28,12 @@ export default function Tentang() {
           <div className="flex flex-wrap items-center">
             <div className="w-12/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
-                <img
-                  alt="..."
-                  src="/img/tentang.png"
-                  className="w-full align-middle rounded-t-lg"
-                />
+                <div className="w-full align-middle rounded-t-lg">
+                  <img
+                    alt="..."
+                    src="/img/tentang.png"
+                  />
+                </div>
                 <blockquote className="relative p-8 mb-4">
                   <svg
                     preserveAspectRatio="none"

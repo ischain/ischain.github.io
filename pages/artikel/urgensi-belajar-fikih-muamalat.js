@@ -1,9 +1,8 @@
 /* eslint-disable react/jsx-no-target-blank */
-
-import Footer from "components/Footers/Footer.js";
-import HeaderArtikel from "components/Headers/HeaderArtikel.js";
-import Gbr from "components/KontenArtikel/Gbr.js";
-import Paragraf from "components/KontenArtikel/Paragraf.js";
+import Footer from "/components/Footers/Footer.js";
+import HeaderArtikel from "/components/Headers/HeaderArtikel.js";
+import Gbr from "/components/KontenArtikel/Gbr.js";
+import Paragraf from "/components/KontenArtikel/Paragraf.js";
 
 export default function tempKontenArtikel() {
   return (
@@ -36,7 +35,7 @@ export default function tempKontenArtikel() {
        </svg>
      </div>
 
-q     <div className="container mx-auto px-4 pb-2">
+    <div className="container mx-auto px-4 pb-2">
         <div className="relative flex flex-wrap z-10 min-w-0 bg-white w-full mb-6 shadow-xl rounded-lg -mt-48">
           <div className="px-6">
             <div className="flex flex-wrap justify-center">

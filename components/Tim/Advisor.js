@@ -28,20 +28,15 @@ export default function Advisor() {
               Ir. Noor Akhmad Setiawan, Ph.D., IPM.
              </span>
               <div className="mt-0 lg:mb-0 mb-2">
-                <a href="https://www.linkedin.com/in/nasetiawan/" target="_blank"
+                <a href="https://www.linkedin.com/in/nasetiawan/" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.facebookk.com/in/nasetiawan/" target="_blank"
+                <a href="https://www.facebook.com/nasetiawan/" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com/in/noorsetiawan/" target="_blank"
-                   className="hover:text-red-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
-                >
-                  <i className="fab fa-instagram"></i>
                 </a>
               </div>
           </div>
@@ -52,12 +47,12 @@ export default function Advisor() {
               Achmad Bahauddin, S.T., M.T.
             </span>
             <div className="mt-0 lg:mb-0 mb-2">
-                <a href="https://www.linkedin.com/in/achmadbahauddin/" target="_blank"
+                <a href="https://www.linkedin.com/in/achmadbahauddin/" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.facebook.com/achmad.bahauddin" target="_blank"
+                <a href="https://www.facebook.com/achmad.bahauddin" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
@@ -71,12 +66,12 @@ export default function Advisor() {
               Andy Bangkit Setiawan, Ph.D.
             </span>
             <div className="mt-0 lg:mb-0 mb-2">
-                <a href="https://www.linkedin.com/in/andy-bangkit-a94a7676/" target="_blank"
+                <a href="https://www.linkedin.com/in/andy-bangkit-a94a7676/" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.facebook.com/andy.bangkit" target="_blank"
+                <a href="https://www.facebook.com/andy.bangkit" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
@@ -86,7 +81,7 @@ export default function Advisor() {
           <div className="text-md text-black mt-4">
            <p className="font-semibold text-red-500">Sharia Advisor</p>
             <span className="text-black mr-2">
-              Fida' Munadzir, B.A.
+              Fida Munadzir, B.A.
             </span>
           </div>
           <div className="text-md text-black mt-4">

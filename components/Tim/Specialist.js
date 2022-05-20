@@ -28,17 +28,17 @@ export default function Specialist() {
                 Firdaus Prabowo, Ph.D.
               </span>
               <div className="mt-0 lg:mb-0 mb-2">
-                <a href="https://www.linkedin.com/in/fprabowo/" target="_blank"
+                <a href="https://www.linkedin.com/in/fprabowo/" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.facebook.com/firdaus.prabowo" target="_blank"
+                <a href="https://www.facebook.com/firdaus.prabowo" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
                 </a>
-                <a href="https://github.com/fprabowo" target="_blank"
+                <a href="https://github.com/fprabowo" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-github"></i>
@@ -51,12 +51,12 @@ export default function Specialist() {
                 Maramis Setiawan, S.T., M.M.T.
               </span>
               <div className="mt-0 lg:mb-0 mb-2">
-                <a href="https://www.linkedin.com/in/maramis-setiawan-a9842b42/" target="_blank"
+                <a href="https://www.linkedin.com/in/maramis-setiawan-a9842b42/" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.facebook.com/maramis.setiawan" target="_blank"
+                <a href="https://www.facebook.com/maramis.setiawan" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
@@ -70,7 +70,7 @@ export default function Specialist() {
                 Hendarsyah Febrian, S.T.
               </span>
               <div className="mt-0 lg:mb-0 mb-2">
-                <a href="https://www.facebook.com/hendarsyah.febryan" target="_blank"
+                <a href="https://www.facebook.com/hendarsyah.febryan" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
@@ -83,17 +83,17 @@ export default function Specialist() {
                 Ryan W. Januardi, S.S.T.
               </span>
               <div className="mt-0 lg:mb-0 mb-2">
-                <a href="https://www.linkedin.com/in/ryanwjanuardi/" target="_blank"
+                <a href="https://www.linkedin.com/in/ryanwjanuardi/" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.facebook.com/ryanwjanuardi" target="_blank"
+                <a href="https://www.facebook.com/ryanwjanuardi" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
                 </a>
-                <a href="https://behance.com/creativectory_std" target="_blank"
+                <a href="https://behance.com/creativectory_std" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-behance"></i>
@@ -106,17 +106,17 @@ export default function Specialist() {
                 Andika D. Riyandi, S.H., S.T.
               </span>
               <div className="mt-0 lg:mb-0 mb-2">
-                <a href="https://www.linkedin.com/in/andika-riyandi/" target="_blank"
+                <a href="https://www.linkedin.com/in/andika-riyandi/" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.facebook.com/andika.riyandi" target="_blank"
+                <a href="https://www.facebook.com/andika.riyandi" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
                 </a>
-                <a href="https://github.com/Rizary" target="_blank"
+                <a href="https://github.com/Rizary" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-github"></i>
@@ -129,12 +129,12 @@ export default function Specialist() {
                 Fikri Faris, Ph.D.
               </span>
               <div className="mt-0 lg:mb-0 mb-2">
-                <a href="https://www.linkedin.com/in/fikri-faris-b52aa8193/" target="_blank"
+                <a href="https://www.linkedin.com/in/fikri-faris-b52aa8193/" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.facebook.com/farisonsky" target="_blank"
+                <a href="https://www.facebook.com/farisonsky" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
@@ -147,17 +147,17 @@ export default function Specialist() {
                 Hadi Lestiyono, S.S.T
               </span>
               <div className="mt-0 lg:mb-0 mb-2">
-                <a href="https://www.linkedin.com/in/hadi-lestiyono-b4792543/" target="_blank"
+                <a href="https://www.linkedin.com/in/hadi-lestiyono-b4792543/" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.facebook.com/hadi.lestiyono" target="_blank"
+                <a href="https://www.facebook.com/hadi.lestiyono" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
                 </a>
-                <a href="https://www.instagram.com/hadilestiyono/" target="_blank"
+                <a href="https://www.instagram.com/hadilestiyono/" target="_blank" rel="noreferrer"
                    className="hover:text-red-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-instagram"></i>
@@ -170,12 +170,12 @@ export default function Specialist() {
                 Fazar Danurwindo, S.T.
               </span>
               <div className="mt-0 lg:mb-0 mb-2">
-                <a href="https://www.linkedin.com/in/fazar-danurwindo-47544b73/" target="_blank"
+                <a href="https://www.linkedin.com/in/fazar-danurwindo-47544b73/" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.facebook.com/Danurfazar" target="_blank"
+                <a href="https://www.facebook.com/Danurfazar" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>

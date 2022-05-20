@@ -1,8 +1,9 @@
+import Link from 'next/link';
 import PropTypes from "prop-types";
 
 // components
 
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
+import IndexNavbar from "../Navbars/IndexNavbar.js";
 
 export default function HeaderArtikel({
     Judul,
@@ -30,7 +31,7 @@ export default function HeaderArtikel({
                      {Judul}
                   </h1>
                   <p className="mt-5 text-md font-normal text-slate-200">
-                     <a className="hover:text-yellow-500 font-normal" href="/artikel">Kembali ke Artikel </a> | <i className="fa fa-calendar ml-2 mr-2"/> {Tanggal} | <i className="fa fa-user ml-2 mr-2"/> {Author}
+                       <Link href="/artikel"><a className="hover:text-yellow-500 font-normal">Kembali ke Artikel</a></Link> | <i className="fa fa-calendar ml-2 mr-2"/> {Tanggal} | <i className="fa fa-user ml-2 mr-2"/> {Author}
                   </p>
                 </div>
               </div>

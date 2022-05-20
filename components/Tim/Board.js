@@ -28,12 +28,12 @@ export default function Board() {
                 Yhouga A. Moppratama, S.T.
               </span>
               <div className="mt-0 lg:mb-0 mb-2">
-                <a href="https://id.linkedin.com/in/yhouga-ariesta" target="_blank"
+                <a href="https://id.linkedin.com/in/yhouga-ariesta" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.facebook.com/yhouga.ariesta" target="_blank"
+                <a href="https://www.facebook.com/yhouga.ariesta" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
@@ -69,18 +69,18 @@ export default function Board() {
                 M. Said Khairul Insan, S.E.
               </span>
               <div className="mt-0 lg:mb-0 mb-2">
-                <a href="https://www.linkedin.com/in/muhammad-said-hairul-insan-8a533496/" target="_blank"
+                <a href="https://www.linkedin.com/in/muhammad-said-hairul-insan-8a533496/" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://facebook.com/muhammadsaidify" target="_blank"
+                <a href="https://facebook.com/muhammadsaidify" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
                 </a>
-                <a href="https://twitter.com/muhammadsaidify" target="_blank"
-                   className="hover:text-sky-400 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
+                <a href="https://twitter.com/muhammadsaidify" target="_blank" rel="noreferrer"
+                   className="hover:text-lightBlue-400 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-twitter"></i>
                 </a>
@@ -92,17 +92,17 @@ export default function Board() {
                 Rama Rizana, M.Sc.
               </span>
               <div className="mt-0 lg:mb-0 mb-2">
-                <a href="https://sa.linkedin.com/in/ramarizana" target="_blank"
+                <a href="https://sa.linkedin.com/in/ramarizana" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://www.facebook.com/ramarizana" target="_blank"
+                <a href="https://www.facebook.com/ramarizana" target="_blank" rel="noreferrer"
                    className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
                 </a>
-                <a href="https://www.instagram.com/ramarizana/?hl=id" target="_blank"
+                <a href="https://www.instagram.com/ramarizana/?hl=id" target="_blank" rel="noreferrer"
                    className="hover:text-red-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-instagram"></i>
