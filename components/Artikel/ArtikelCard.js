@@ -16,6 +16,8 @@ export default function ArtikelCard({
                   src= {Gambar}
                   className="w-full align-middle rounded-t-lg"
                   alt='...'
+                  width={500}
+                  height={500}
                 />
                 <blockquote className="relative p-8 mb-4">
                   <svg

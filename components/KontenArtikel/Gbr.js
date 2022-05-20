@@ -10,6 +10,8 @@ export default function Gbr({
           <Image unoptimized
             src = {Gambarx}
             alt = ""
+            width={500}
+            height={500}
           />
         </div>
     </>
