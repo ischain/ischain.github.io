@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 
 export default function Paragraf({
@@ -12,8 +11,8 @@ export default function Paragraf({
 }) {
   return (
     <>
-        <p  className="mb-4 text-lg leading-relaxed text-blueGray-800">
-            {Kalimat} <a href = {Link} className="text-blue-500 hover:text-blueGray-700">{Link}</a> {Kalimat1}{Kalimat2}{Kalimat3}{Kalimat4}{Kalimat5}
+        <p  className="mb-4 text-lg leading-relaxed text-slate-800">
+            {Kalimat} <a href = {Link} className="text-blue-500 hover:text-slate-700">{Link}</a> {Kalimat1}{Kalimat2}{Kalimat3}{Kalimat4}{Kalimat5}
         </p>
     </>
   );

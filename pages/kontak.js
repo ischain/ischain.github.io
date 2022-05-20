@@ -1,9 +1,8 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React from "react";
 
+import Footer from "components/Footers/Footer.js";
 import Header from "components/Headers/Header.js";
 import CardKontak from "components/Tabel/CardKontak.js";
-import Footer from "components/Footers/Footer.js";
 
 export default function Kontak() {
   return (
@@ -11,7 +10,7 @@ export default function Kontak() {
       <Header
         Judul= "Hubungi Kami"
         SubJudul= "Kontak"/>
-      <section className="pb-20 relative bg-blueGray-100">
+      <section className="pb-20 relative bg-slate-100">
 
         <div
             className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
@@ -27,7 +26,7 @@ export default function Kontak() {
             y="0"
         >
         <polygon
-            className="text-blueGray-100 fill-current"
+            className="text-slate-100 fill-current"
             points="2560 0 2560 100 0 100"
         ></polygon>
         </svg>

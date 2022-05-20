@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 
 export default function PublikasiComing({
@@ -9,7 +8,7 @@ export default function PublikasiComing({
 }) {
   return (
     <>
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                 <img
                   src= {Gambar}
                   className="w-full align-middle rounded-t-lg"
@@ -23,7 +22,7 @@ export default function PublikasiComing({
                   >
                     <polygon
                       points="-30,95 583,95 583,65"
-                      className="text-blueGray-700 fill-current"
+                      className="text-slate-700 fill-current"
                     ></polygon>
                   </svg>
 
@@ -37,7 +36,7 @@ export default function PublikasiComing({
 
                   <div className="mt-4">
                       <button
-                        className="hover:bg-blueGray-200 bg-blueGray-200 text-blueGray-700 active:bg-blueGray-200 text-md font-semibold px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 mb-3 ease-linear transition-all duration-150"
+                        className="hover:bg-slate-200 bg-slate-200 text-slate-700 active:bg-slate-200 text-md font-semibold px-4 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 mb-3 ease-linear transition-all duration-150"
                         type="button"
                       >
                         Coming Soon

@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 
 
@@ -10,7 +9,7 @@ export default function CardFAQ({ color }) {
       <div
         className={
           "relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded " +
-          (color === "light" ? "bg-white" : "bg-blueGray-700 text-white")
+          (color === "light" ? "bg-white" : "bg-slate-700 text-white")
         }
       >
         <div className="rounded-t mb-0 px-4 py-3 border-0">
@@ -21,15 +20,15 @@ export default function CardFAQ({ color }) {
         </div>
         <div className="block w-full overflow-x-auto">
           {/* FAQ table */}
-          <table className="items-center w-full bg-transparent border-collapse text-blueGray-700">
+          <table className="items-center w-full bg-transparent border-collapse text-slate-700">
             <thead>
               <tr>
                 <th
                   className={
                     "px-6 align-middle border border-solid py-3 text-md font-bold uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
-                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                      ? "bg-slate-50 text-slate-500 border-slate-100"
+                      : "bg-slate-600 text-slate-200 border-slate-500")
                   }
                 >
                   No.
@@ -38,8 +37,8 @@ export default function CardFAQ({ color }) {
                   className={
                     "px-6 align-middle border border-solid py-3 text-md font-bold uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
-                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                      ? "bg-slate-50 text-slate-500 border-slate-100"
+                      : "bg-slate-600 text-slate-200 border-slate-500")
                   }
                 >
                   Pertanyaan
@@ -48,8 +47,8 @@ export default function CardFAQ({ color }) {
                   className={
                     "px-6 align-middle border border-solid py-3 text-md font-bold uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
-                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                      ? "bg-slate-50 text-slate-500 border-slate-100"
+                      : "bg-slate-600 text-slate-200 border-slate-500")
                   }
                 >
                   Jawaban
@@ -92,7 +91,7 @@ export default function CardFAQ({ color }) {
                   Bagaimana cara bergabung dengan ISCHAIN?
                 </td>
                 <td className="border-t-0 px-6 align-top border-l-0 border-r-0 text-md font-normal felx flex-wrap p-4">
-                  Komunitas ISCHAIN bisa diakses melalui <a href="https://t.me/ischainlounge" className="text-blue-500 hover:text-blueGray-700 font-semibold">Telegram</a>.
+                  Komunitas ISCHAIN bisa diakses melalui <a href="https://t.me/ischainlounge" className="text-blue-500 hover:text-slate-700 font-semibold">Telegram</a>.
                 </td>
               </tr>
               
@@ -104,7 +103,7 @@ export default function CardFAQ({ color }) {
                   Adakah tulisan pendahuluan tentang Cryptocurrency?
                 </td>
                 <td className="border-t-0 px-6 align-top border-l-0 border-r-0 text-md font-normal felx flex-wrap p-4">
-                  Ya ada, bisa kunjungi halaman <a href="https://ischain.id/publikasi" className="text-blue-500 hover:text-blueGray-700 font-semibold">Publikasi</a> di website kami.
+                  Ya ada, bisa kunjungi halaman <a href="https://ischain.id/publikasi" className="text-blue-500 hover:text-slate-700 font-semibold">Publikasi</a> di website kami.
                 </td>
               </tr>
 

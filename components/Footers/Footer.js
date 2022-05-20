@@ -1,9 +1,8 @@
-import React from "react";
 
 export default function Footer() {
   return (
     <>
-      <footer className="relative bg-blueGray-100 pt-8 pb-6">
+      <footer className="relative bg-slate-100 pt-8 pb-6">
         <div
           className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
           style={{ transform: "translateZ(0)" }}
@@ -18,7 +17,7 @@ export default function Footer() {
             y="0"
           >
             <polygon
-              className="text-blueGray-100 fill-current"
+              className="text-slate-100 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
@@ -33,7 +32,7 @@ export default function Footer() {
               <div className="mt-6 lg:mb-0 mb-6">
                 <a href="https://t.me/ischainlounge" target="_blank">
                   <button 
-                  className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                  className="bg-white text-sky-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                   >
                   <i className="fab fa-telegram"></i>
@@ -68,13 +67,13 @@ export default function Footer() {
             <div className="w-full lg:w-6/12 px-4">
               <div className="flex flex-wrap items-top mb-6">
                 <div className="w-full lg:w-4/12 px-4 ml-auto">
-                  <span className="block uppercase text-blueGray-800 text-sm font-bold mb-2">
+                  <span className="block uppercase text-slate-800 text-sm font-bold mb-2">
                     Link Penting
                   </span>
                   <ul className="list-unstyled">
                     <li>
                       <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        className="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         href="/faq"
                       >
                         FAQ
@@ -82,7 +81,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        className="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         href="/publikasi"
                       >
                         Publikasi
@@ -90,7 +89,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        className="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         href="/artikel"
                       >
                         Artikel
@@ -99,13 +98,13 @@ export default function Footer() {
                   </ul>
                 </div>
                 <div className="w-full lg:w-4/12 px-4">
-                  <span className="block uppercase text-blueGray-800 text-sm font-bold mb-2">
+                  <span className="block uppercase text-slate-800 text-sm font-bold mb-2">
                     Sumber Daya
                   </span>
                   <ul className="list-unstyled">
                     <li>
                       <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        className="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         href="/tentang-kami"
                       >
                         Tentang Kami
@@ -113,7 +112,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        className="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
                         href="/kontak"
                       >
                         Hubungi Kami
@@ -124,14 +123,14 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <hr className="my-6 border-blueGray-300" />
+          <hr className="my-6 border-slate-300" />
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-3/12 px-4 mx-auto text-center">
-              <div className="text-sm text-blueGray-500 font-semibold py-1">
+              <div className="text-sm text-slate-500 font-semibold py-1">
                 Copyright © {new Date().getFullYear()}.{" "}
                 <a
                   href="https://ischain.id"
-                  className="text-blue-500 hover:text-blueGray-800"
+                  className="text-blue-500 hover:text-slate-800"
                 >
                   ISCHAIN Teknologi Indonesia
                 </a>

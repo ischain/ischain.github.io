@@ -1,4 +1,3 @@
-import React from "react";
 
 export default function Advisor() {
   return (
@@ -7,10 +6,10 @@ export default function Advisor() {
         <div className="flex-auto p-4">
           <div className="flex flex-wrap">
             <div className="relative w-full pr-4 max-w-full flex-grow flex-1">
-              <h5 className="text-blueGray-400 uppercase font-bold text-xs">
+              <h5 className="text-slate-400 uppercase font-bold text-xs">
                 Advisory Board
               </h5>
-              <span className="font-semibold text-xl text-blueGray-700">
+              <span className="font-semibold text-xl text-slate-700">
                 Pembina & Penasihat
               </span>
             </div>
@@ -30,17 +29,17 @@ export default function Advisor() {
              </span>
               <div className="mt-0 lg:mb-0 mb-2">
                 <a href="https://www.linkedin.com/in/nasetiawan/" target="_blank"
-                   className="hover:text-blue-500 text-blueGray-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
+                   className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="https://www.facebookk.com/in/nasetiawan/" target="_blank"
-                   className="hover:text-blue-500 text-blueGray-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
+                   className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
                 </a>
                 <a href="https://www.instagram.com/in/noorsetiawan/" target="_blank"
-                   className="hover:text-red-500 text-blueGray-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
+                   className="hover:text-red-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-instagram"></i>
                 </a>
@@ -54,12 +53,12 @@ export default function Advisor() {
             </span>
             <div className="mt-0 lg:mb-0 mb-2">
                 <a href="https://www.linkedin.com/in/achmadbahauddin/" target="_blank"
-                   className="hover:text-blue-500 text-blueGray-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
+                   className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="https://www.facebook.com/achmad.bahauddin" target="_blank"
-                   className="hover:text-blue-500 text-blueGray-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
+                   className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
                 </a>
@@ -73,12 +72,12 @@ export default function Advisor() {
             </span>
             <div className="mt-0 lg:mb-0 mb-2">
                 <a href="https://www.linkedin.com/in/andy-bangkit-a94a7676/" target="_blank"
-                   className="hover:text-blue-500 text-blueGray-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
+                   className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="https://www.facebook.com/andy.bangkit" target="_blank"
-                   className="hover:text-blue-500 text-blueGray-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
+                   className="hover:text-blue-500 text-slate-500 font-normal h-10 w-10 items-center rounded-full outline-none focus:outline-none mr-2"
                 >
                   <i className="fab fa-facebook"></i>
                 </a>

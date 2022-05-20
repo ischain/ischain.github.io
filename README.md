@@ -1,5 +1,5 @@
-# ISCHAIN Community <a href="https://ischain.id" target="_blank">Website</a>
-  ![version](https://img.shields.io/badge/version-1.0.1-green.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) <a href=https://github.com/kohryan/ischain-web/blob/main/LICENSE><a/>
+# ISCHAIN Community Website Versi 2.0
+
  
 Situs ini diperuntukan untuk informasi dan pengenalan ISCHAIN Community ke khalayak ramai.
 
@@ -14,4 +14,4 @@ $ npm run dev
 Buka hasil preview di `localhost:3000`.
 
 # Credits
-Website ini memodifikasi total template Notus NextJS dan menggunakan Tailwind CSS Notus NextJS dengan modifikasi minor: [https://github.com/creativetimofficial/notus-nextjs/](https://github.com/creativetimofficial/notus-nextjs/)
+Website ini menggunakan template Notus NextJS dan menggunakan Tailwind CSS Notus NextJS dengan modifikasi minor: [https://github.com/creativetimofficial/notus-nextjs/](https://github.com/creativetimofficial/notus-nextjs/)

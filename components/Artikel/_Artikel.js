@@ -1,4 +1,3 @@
-import React from "react";
 
 import ArtikelCard from "components/Artikel/ArtikelCard.js";
 
@@ -6,7 +5,7 @@ export default function _Artikel() {
   return (
     <>
 
-<section className="pb-20 relative bg-blueGray-100">
+<section className="pb-20 relative bg-slate-100">
 
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
@@ -22,7 +21,7 @@ export default function _Artikel() {
             y="0"
           >
             <polygon
-              className="text-blueGray-100 fill-current"
+              className="text-slate-100 fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
@@ -76,28 +75,28 @@ export default function _Artikel() {
               <div className="justify-center py-2 mx-auto items-center flex flex-wrap mt-2">
                 <ul className="flex pl-0 rounded list-none flex-wrap lg:w-12/12">
                     <li>
-                        <a href="/Artikel" className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-blueGray-700 text-white">
+                        <a href="/Artikel" className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-slate-500 bg-slate-700 text-white">
                           <i className="fas fa-chevron-left -ml-px"></i>
                           <i className="fas fa-chevron-left -ml-px"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#pablo" className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-white text-blueGray-500">
+                        <a href="#pablo" className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-slate-500 bg-white text-slate-500">
                           <i className="fas fa-chevron-left -ml-px"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="/Artikel#1" className="1 first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-white text-blueGray-500">
+                        <a href="/Artikel#1" className="1 first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-slate-500 bg-white text-slate-500">
                           1
                         </a>
                     </li>
                     <li>
-                          <a href="#pablo" className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-white text-blueGray-500">
+                          <a href="#pablo" className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-slate-500 bg-white text-slate-500">
                           <i className="fas fa-chevron-right -mr-px"></i>
                           </a>
                     </li>
                     <li>
-                    <a href="#pablo" className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blueGray-500 bg-blueGray-700 text-white">
+                    <a href="#pablo" className="first:ml-0 mr-1 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-slate-500 bg-slate-700 text-white">
                           <i className="fas fa-chevron-right -mr-px"></i>
                           <i className="fas fa-chevron-right -mr-px"></i>
                         </a>

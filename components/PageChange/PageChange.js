@@ -1,4 +1,3 @@
-import React from "react";
 
 // reactstrap components
 // import { Spinner } from "reactstrap";
@@ -9,7 +8,7 @@ export default function PageChange(props) {
   return (
     <div>
       <div
-        className="bg-cover fixed z-40 w-full h-full top-0 left-0 bg-blueGray-700"
+        className="bg-cover fixed z-40 w-full h-full top-0 left-0 bg-slate-700"
       ></div>
       <div className="top-0 left-0 w-full h-full block z-50 absolute bg-black bg-opacity-50"></div>
       <div className="my-32 mx-auto max-w-sm text-center relative z-50 top-0">
