@@ -14,6 +14,9 @@ export default function Navbar(props) {
                     <Image unoptimized
                       src= "/img/ischain-logo-i.png" 
                       alt= "logo" 
+                      width={150}
+                      height={50}
+                      layout="intrinsic"
                     />
                   </a>
                 </Link>
